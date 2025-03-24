@@ -6,7 +6,7 @@
     "phone": "(+98) 918 355 2173",
     "location": "Kermanshah, Iran",
     "url": {
-      "label": "",
+      "label": "Personal Website",
       "href": "https://farokh.raad.website"
     },
     "customFields": [],
@@ -29,7 +29,7 @@
       "separateLinks": true,
       "visible": true,
       "id": "summary",
-      "content": "<p>PhD candidate specializing in the integration of artificial intelligence, circular economy, and sustainability in architectural design. Experienced in interdisciplinary research, combining advanced computational tools with human-centered methodologies to address urban planning and environmental challenges. Dedicated to advancing innovative, impactful research within dynamic academic environments.</p>"
+      "content": "<p>PhD student specializing in the integration of artificial intelligence, circular economy, and sustainability in architectural design. Experienced in interdisciplinary research, combining advanced computational tools with human-centered methodologies to address urban planning and environmental challenges. Dedicated to advancing innovative, impactful research within dynamic academic environments.</p>"
     },
     "awards": {
       "name": "Awards",
@@ -62,7 +62,7 @@
           "area": "Architecture",
           "score": "",
           "date": "2020 - Present",
-          "summary": "<p>Proposal: <em>Artificial Intelligence as a tool to augment creativity in architecture design process</em></p>",
+          "summary": "<p>Proposal: <em>Artificial Intelligence as a tool to augment creativity in architecture design process.</em></p>",
           "url": {
             "label": "",
             "href": ""
@@ -124,9 +124,9 @@
           "visible": true,
           "company": "Raf Tejarat Kala",
           "position": "Technical Expert",
-          "location": "",
+          "location": "Kermanshah, Iran.",
           "date": "2022-2024",
-          "summary": "",
+          "summary": "<p><em>Oversaw technical projects and provided consultancy on architectural solutions.</em></p>",
           "url": {
             "label": "",
             "href": ""
@@ -137,9 +137,9 @@
           "visible": true,
           "company": "Rahavard Fanavari",
           "position": "Technical Expert",
-          "location": "",
+          "location": "Kermanshah, Iran.",
           "date": "2018-2022",
-          "summary": "",
+          "summary": "<p><em>Supported multi-disciplinary teams in developing architectural and construction solutions.</em></p>",
           "url": {
             "label": "",
             "href": ""
@@ -150,9 +150,9 @@
           "visible": true,
           "company": "Dezhkan Industries",
           "position": "Part-time Researcher",
-          "location": "",
+          "location": "Kermanshah, Iran.",
           "date": "2017-2018",
-          "summary": "<p>Researching small scale cement kiln development</p>",
+          "summary": "<p><em>Conducted research on small-scale cement kiln development.</em></p>",
           "url": {
             "label": "",
             "href": ""
@@ -163,9 +163,9 @@
           "visible": true,
           "company": "Tarh Architectural Design and Consultation Office",
           "position": "Junior Architect",
-          "location": "",
+          "location": "Kermanshah, Iran.",
           "date": "2015-2018",
-          "summary": "",
+          "summary": "<p><em>Contributed to design projects and client consultations.</em></p>",
           "url": {
             "label": "",
             "href": ""
@@ -176,9 +176,9 @@
           "visible": true,
           "company": "Tarh Architectural Design and Consultation Office",
           "position": "Senior Designer Assistant",
-          "location": "",
+          "location": "Kermanshah, Iran.",
           "date": "2013-2015",
-          "summary": "",
+          "summary": "<p><em>Assisted lead architects with conceptual designs and drafting.</em></p>",
           "url": {
             "label": "",
             "href": ""
@@ -221,7 +221,7 @@
           "visible": true,
           "name": "English",
           "description": "IELTS Overall Band 7.5 •\tListening: 9.0 •\tReading: 7.5 •\tWriting: 6.5  •\tSpeaking: 6.5",
-          "level": 5
+          "level": 4
         }
       ]
     },
@@ -255,8 +255,19 @@
           }
         },
         {
+          "id": "zs2799zdf7d0bvtptw3k54an",
+          "visible": true,
+          "network": "Google Scholar",
+          "username": "Google Scholar",
+          "icon": "googlescholar",
+          "url": {
+            "label": "",
+            "href": "https://scholar.google.com/citations?hl=en&user=oZbQQPQAAAAJ"
+          }
+        },
+        {
           "id": "bjt3fyfmcxm2158o0797ohgm",
-          "visible": false,
+          "visible": true,
           "network": "Civilica",
           "username": "Civilica",
           "icon": "",
@@ -286,60 +297,60 @@
           "id": "ubyfx9ndjdql9f1d1qcxqkvf",
           "visible": true,
           "name": "A Comprehensive Digital Integration Framework for Circular Economy in Existing Building Retrofits",
-          "publisher": "4th International congress on civil Engineering, Architecture, Building Materials and Environment.",
+          "publisher": "4th International congress on civil Engineering, Architecture, Building Materials and Environment. Helsinki, Finland.",
           "date": "2025",
           "summary": "",
           "url": {
-            "label": "",
-            "href": ""
+            "label": "ResearchGate",
+            "href": "https://www.researchgate.net/publication/390099098_A_Comprehensive_Digital_Integration_Framework_for_Circular_Economy_in_Existing_Building_Retrofits?_sg[0]=-5LN3qZiYoLHwedejf3P1ETcnvbQ3zOcMUZEZuMnQyL2HTuNeB9UjaaJKup5ZZSpX2Fotlrv2qx4AaVAcNs_jsSKR060bOtv-lS2nTlU.eO-4cokOFGt9nbpvqS4MV89nand5pQrutgf-mgLJQspuwel-GxxJ2ZK8TCOOb5sZspPAxCG7kI6-RPXER6Vrkw&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSIsInBvc2l0aW9uIjoicGFnZUNvbnRlbnQifX0"
           }
         },
         {
           "id": "l919lamutqi1dez9ucsz4ikp",
           "visible": true,
           "name": "Validation of a Digital Framework for Circular Economy Retrofits: A Multi-Case Analysis",
-          "publisher": "4th International congress on civil Engineering, Architecture, Building Materials and Environment.",
+          "publisher": "4th International congress on civil Engineering, Architecture, Building Materials and Environment. Helsinki, Finland.",
           "date": "2025",
           "summary": "",
           "url": {
-            "label": "",
-            "href": ""
+            "label": "ResearchGate",
+            "href": "https://www.researchgate.net/publication/390099557_Validation_of_a_Digital_Framework_for_Circular_Economy_Retrofits_A_Multi-Case_Analysis?_sg[0]=-5LN3qZiYoLHwedejf3P1ETcnvbQ3zOcMUZEZuMnQyL2HTuNeB9UjaaJKup5ZZSpX2Fotlrv2qx4AaVAcNs_jsSKR060bOtv-lS2nTlU.eO-4cokOFGt9nbpvqS4MV89nand5pQrutgf-mgLJQspuwel-GxxJ2ZK8TCOOb5sZspPAxCG7kI6-RPXER6Vrkw&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSIsInBvc2l0aW9uIjoicGFnZUNvbnRlbnQifX0"
           }
         },
         {
           "id": "go7uodjs7dzl7tvgoveot0b4",
           "visible": true,
           "name": "Barriers, Strategies, and Policy Pathways for Digital Circular Economy in Building Retrofits",
-          "publisher": "4th International congress on civil Engineering, Architecture, Building Materials and Environment.",
+          "publisher": "4th International congress on civil Engineering, Architecture, Building Materials and Environment. Helsinki, Finland.",
           "date": "2025",
           "summary": "",
           "url": {
-            "label": "",
-            "href": ""
+            "label": "ResearchGate",
+            "href": "https://www.researchgate.net/publication/390099272_Barriers_Strategies_and_Policy_Pathways_for_Digital_Circular_Economy_in_Building_Retrofits?_sg[0]=-5LN3qZiYoLHwedejf3P1ETcnvbQ3zOcMUZEZuMnQyL2HTuNeB9UjaaJKup5ZZSpX2Fotlrv2qx4AaVAcNs_jsSKR060bOtv-lS2nTlU.eO-4cokOFGt9nbpvqS4MV89nand5pQrutgf-mgLJQspuwel-GxxJ2ZK8TCOOb5sZspPAxCG7kI6-RPXER6Vrkw&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSIsInBvc2l0aW9uIjoicGFnZUNvbnRlbnQifX0"
           }
         },
         {
           "id": "qgz125p0hhdqri20yhuwy5sz",
           "visible": true,
           "name": "A Review of Circular Economy Strategies for Existing Buildings: Challenges, Solutions",
-          "publisher": "5th International conference on creative achievements of architecture, urban planning, civil engineering and environment in the sustainable development of the Middle East.",
+          "publisher": "5th International conference on creative achievements of architecture, urban planning, civil engineering and environment in the sustainable development of the Middle East. Mashhad, Iran.",
           "date": "2024",
           "summary": "",
           "url": {
-            "label": "",
-            "href": ""
+            "label": "ResearchGate",
+            "href": "https://www.researchgate.net/publication/390099569_mrwry_br_astratzhyhay_aqtsad_chrkhhay_bray_sakhtmanhay_mwjwd_chalshha_rahhlha?_sg[0]=-5LN3qZiYoLHwedejf3P1ETcnvbQ3zOcMUZEZuMnQyL2HTuNeB9UjaaJKup5ZZSpX2Fotlrv2qx4AaVAcNs_jsSKR060bOtv-lS2nTlU.eO-4cokOFGt9nbpvqS4MV89nand5pQrutgf-mgLJQspuwel-GxxJ2ZK8TCOOb5sZspPAxCG7kI6-RPXER6Vrkw&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSIsInBvc2l0aW9uIjoicGFnZUNvbnRlbnQifX0"
           }
         },
         {
           "id": "k9nf998vt7dcgas3g1zrv88a",
           "visible": true,
           "name": "Identifying and Surveying Parameters Affecting the Architecture of Poverty and Prioritizing Them Using the Analytic Hierarchy Process",
-          "publisher": "10th International Congress on Civil Engineering, Architecture and Urban Development.",
+          "publisher": "10th International Congress on Civil Engineering, Architecture and Urban Development. Tehran, Iran.",
           "date": "2024",
           "summary": "",
           "url": {
-            "label": "",
-            "href": ""
+            "label": "ResearchGate",
+            "href": "https://www.researchgate.net/publication/390099668_shnakht_w_brrsy_shakhshay_mwthr_br_mmary_fqr_w_awlwyt_bndy_anha_ba_astfadh_az_rwsh_thlyl_slslh_mratby?_sg[0]=-5LN3qZiYoLHwedejf3P1ETcnvbQ3zOcMUZEZuMnQyL2HTuNeB9UjaaJKup5ZZSpX2Fotlrv2qx4AaVAcNs_jsSKR060bOtv-lS2nTlU.eO-4cokOFGt9nbpvqS4MV89nand5pQrutgf-mgLJQspuwel-GxxJ2ZK8TCOOb5sZspPAxCG7kI6-RPXER6Vrkw&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSIsInBvc2l0aW9uIjoicGFnZUNvbnRlbnQifX0"
           }
         }
       ]
@@ -394,83 +405,85 @@
       "id": "skills",
       "items": [
         {
-          "id": "xcxyigvbuqiqip8bmnprfeui",
+          "id": "gwih7c0n0t3c0ht1zm16fxnr",
           "visible": true,
-          "name": "Architectural Design and Planning",
+          "name": "AI-Driven and Parametric Design",
           "description": "",
-          "level": 5,
+          "level": 0,
+          "keywords": [
+            "Rhino",
+            "Grasshopper",
+            "Dynamo"
+          ]
+        },
+        {
+          "id": "n3teyw059c8ep7z7tgdbpur9",
+          "visible": true,
+          "name": "Sustainable and Circular Economy Strategies",
+          "description": "",
+          "level": 0,
           "keywords": []
         },
         {
-          "id": "ose8ng5321bc3od1cflsigch",
+          "id": "vflc3ygv5jys3tjaazkbdiyp",
           "visible": true,
-          "name": "Research and Analysis",
+          "name": "Quantitative & Qualitative Research Methods",
           "description": "",
-          "level": 5,
+          "level": 0,
           "keywords": []
         },
         {
-          "id": "i6se9zq1honv9nmma465rzf6",
+          "id": "t1rp03nyicqedo76zgs0xa0b",
           "visible": true,
-          "name": "AI and Computational Design",
+          "name": "Data Analysis & Modeling",
           "description": "",
-          "level": 5,
+          "level": 0,
+          "keywords": [
+            "Energy modeling",
+            "LCA Tools",
+            "Statistical packages"
+          ]
+        },
+        {
+          "id": "v6o31rhyx85qruviy04kuvte",
+          "visible": true,
+          "name": "Architectural Design & Planning",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Conceptual to schematic phases"
+          ]
+        },
+        {
+          "id": "ver4e72bq2zdwbd6bdsdxrpc",
+          "visible": true,
+          "name": "Project Coordination & Stakeholder Collaboration",
+          "description": "",
+          "level": 0,
           "keywords": []
         },
         {
-          "id": "dnqvmzztn99d45j3lw5gcrk8",
+          "id": "lnw57jwwe8ncnx38shflkb4i",
           "visible": true,
-          "name": "Sustainability and Environmental Design",
+          "name": "Academic Writing & Presentations",
           "description": "",
-          "level": 5,
+          "level": 0,
           "keywords": []
         },
         {
-          "id": "gylr0hqamdjcqdsld1iub2nm",
+          "id": "rrnqkq9wdyctn4dk13h2ckzo",
           "visible": true,
-          "name": "Architecture Construction and Project Management",
+          "name": "Problem-Solving & Critical Thinking",
           "description": "",
-          "level": 5,
+          "level": 0,
           "keywords": []
         },
         {
-          "id": "d1vo8p5urutnn54z43lubsfz",
+          "id": "dljvfv4p558g1boe6ef1o4ky",
           "visible": true,
-          "name": "Architecture Related Software",
+          "name": "Adaptability & Interdisciplinary Collaboration",
           "description": "",
-          "level": 5,
-          "keywords": []
-        },
-        {
-          "id": "zfllffmky9c7qreok00yyfiz",
-          "visible": true,
-          "name": "Consultation and Client Collaboration",
-          "description": "",
-          "level": 5,
-          "keywords": []
-        },
-        {
-          "id": "xi9kniwnvdznpyzzojmzf2ud",
-          "visible": true,
-          "name": "Academic Writing and Presentation",
-          "description": "",
-          "level": 5,
-          "keywords": []
-        },
-        {
-          "id": "lglgtv4dnso8sjqvh9puzozn",
-          "visible": true,
-          "name": "Problem Solving and Critical Thinking",
-          "description": "",
-          "level": 5,
-          "keywords": []
-        },
-        {
-          "id": "rsxe9irrp9pl14iuqebwaztx",
-          "visible": true,
-          "name": "Adaptability and Flexibility",
-          "description": "",
-          "level": 5,
+          "level": 0,
           "keywords": []
         }
       ]
@@ -478,7 +491,7 @@
     "custom": {}
   },
   "metadata": {
-    "template": "pikachu",
+    "template": "gengar",
     "layout": [
       [
         [
@@ -488,11 +501,11 @@
           "experience"
         ],
         [
-          "languages",
+          "profiles",
           "skills",
+          "languages",
           "interests",
           "certifications",
-          "profiles",
           "awards",
           "projects",
           "volunteer",
@@ -508,18 +521,18 @@
       "margin": 18,
       "format": "a4",
       "options": {
-        "breakLine": true,
+        "breakLine": false,
         "pageNumbers": true
       }
     },
     "theme": {
       "background": "#ffffff",
       "text": "#000000",
-      "primary": "#475569"
+      "primary": "#0d9488"
     },
     "typography": {
       "font": {
-        "family": "Cambria",
+        "family": "Lora",
         "subset": "latin",
         "variants": [
           "regular"
