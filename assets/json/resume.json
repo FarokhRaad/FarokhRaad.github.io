@@ -1,200 +1,535 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+    "name": "Farokh Panahirad",
+    "headline": "",
+    "email": "raad.farokh@gmail.com",
+    "phone": "(+98) 918 355 2173",
+    "location": "Kermanshah, Iran",
+    "url": {
+      "label": "",
+      "href": "https://farokh.raad.website"
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+    "customFields": [],
+    "picture": {
+      "url": "",
+      "size": 64,
+      "aspectRatio": 1,
+      "borderRadius": 0,
+      "effects": {
+        "hidden": false,
+        "border": false,
+        "grayscale": false
       }
-    ]
+    }
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+  "sections": {
+    "summary": {
+      "name": "Summary",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "summary",
+      "content": "<p>PhD candidate specializing in the integration of artificial intelligence, circular economy, and sustainability in architectural design. Experienced in interdisciplinary research, combining advanced computational tools with human-centered methodologies to address urban planning and environmental challenges. Dedicated to advancing innovative, impactful research within dynamic academic environments.</p>"
     },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+    "awards": {
+      "name": "Awards",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "awards",
+      "items": []
     },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+    "certifications": {
+      "name": "Certifications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "certifications",
+      "items": []
     },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+    "education": {
+      "name": "Education",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "education",
+      "items": [
+        {
+          "id": "ubfgk179ifnerb18h5ek12h6",
+          "visible": true,
+          "institution": "Art University of Isfahan",
+          "studyType": "PhD",
+          "area": "Architecture",
+          "score": "",
+          "date": "2020 - Present",
+          "summary": "<p>Proposal: <em>Artificial Intelligence as a tool to augment creativity in architecture design process</em></p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "jv0gs1mzydprnqnfquf2n71f",
+          "visible": true,
+          "institution": "Islamic Azad University of Kermanshah",
+          "studyType": "Master's Degree",
+          "area": "Architectural Engineering",
+          "score": "",
+          "date": "2016-2020",
+          "summary": "<p>Thesis:<em> Architecture of poverty: analysis of consequences and recommendation of mitigating strategies.</em></p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "lrbbhh0k5pyteiq9cnqtbwdq",
+          "visible": true,
+          "institution": "Islamic Azad University of Kermanshah",
+          "studyType": "Bachelor's Degree",
+          "area": "Architectural Technology Engineering",
+          "score": "",
+          "date": "2013-2015",
+          "summary": "<p>Thesis: <em>Designing a bus terminal</em></p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "cepvebkilguzd6m8zt1447xe",
+          "visible": true,
+          "institution": "Islamic Azad University of Kermanshah",
+          "studyType": "Associate degree",
+          "area": "Architecture",
+          "score": "",
+          "date": "2010-2013",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
     },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+    "experience": {
+      "name": "Experience",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "experience",
+      "items": [
+        {
+          "id": "dk3chw2jo4oe98fkxzsl7um6",
+          "visible": true,
+          "company": "Raf Tejarat Kala",
+          "position": "Technical Expert",
+          "location": "",
+          "date": "2022-2024",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "jtznrj1mi4lan1w2erteynr3",
+          "visible": true,
+          "company": "Rahavard Fanavari",
+          "position": "Technical Expert",
+          "location": "",
+          "date": "2018-2022",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "xix54tfa9ak8g47ssur0s5s1",
+          "visible": true,
+          "company": "Dezhkan Industries",
+          "position": "Part-time Researcher",
+          "location": "",
+          "date": "2017-2018",
+          "summary": "<p>Researching small scale cement kiln development</p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "m2t66aumix88zm3eda503lzh",
+          "visible": true,
+          "company": "Tarh Architectural Design and Consultation Office",
+          "position": "Junior Architect",
+          "location": "",
+          "date": "2015-2018",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "byb5foevv0vc9dwuienasmvm",
+          "visible": true,
+          "company": "Tarh Architectural Design and Consultation Office",
+          "position": "Senior Designer Assistant",
+          "location": "",
+          "date": "2013-2015",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
+    "volunteer": {
+      "name": "Volunteering",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "volunteer",
+      "items": []
+    },
+    "interests": {
+      "name": "Interests",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "interests",
+      "items": []
+    },
+    "languages": {
+      "name": "Languages",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "languages",
+      "items": [
+        {
+          "id": "qi2nf2mym2sdu7y0fw12cpfh",
+          "visible": true,
+          "name": "Persian",
+          "description": "Native",
+          "level": 5
+        },
+        {
+          "id": "qi44citioyitr1lfogncyy4o",
+          "visible": true,
+          "name": "English",
+          "description": "IELTS Overall Band 7.5 •\tListening: 9.0 •\tReading: 7.5 •\tWriting: 6.5  •\tSpeaking: 6.5",
+          "level": 5
+        }
+      ]
+    },
+    "profiles": {
+      "name": "Profiles",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "profiles",
+      "items": [
+        {
+          "id": "wmc52e3s9744f770ql8518tu",
+          "visible": true,
+          "network": "ORCID",
+          "username": "ORCID",
+          "icon": "Orcid",
+          "url": {
+            "label": "",
+            "href": "https://orcid.org/0009-0008-5691-2240"
+          }
+        },
+        {
+          "id": "th9ico2d6o7zftuko6c5772m",
+          "visible": true,
+          "network": "ResearchGate",
+          "username": "Research Gate",
+          "icon": "ResearchGate",
+          "url": {
+            "label": "",
+            "href": "https://www.researchgate.net/profile/Farokh-Panahirad"
+          }
+        },
+        {
+          "id": "bjt3fyfmcxm2158o0797ohgm",
+          "visible": false,
+          "network": "Civilica",
+          "username": "Civilica",
+          "icon": "",
+          "url": {
+            "label": "",
+            "href": "https://en.civilica.com/p/68100/"
+          }
+        }
+      ]
+    },
+    "projects": {
+      "name": "Projects",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "projects",
+      "items": []
+    },
+    "publications": {
+      "name": "Publications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "publications",
+      "items": [
+        {
+          "id": "ubyfx9ndjdql9f1d1qcxqkvf",
+          "visible": true,
+          "name": "A Comprehensive Digital Integration Framework for Circular Economy in Existing Building Retrofits",
+          "publisher": "4th International congress on civil Engineering, Architecture, Building Materials and Environment.",
+          "date": "2025",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "l919lamutqi1dez9ucsz4ikp",
+          "visible": true,
+          "name": "Validation of a Digital Framework for Circular Economy Retrofits: A Multi-Case Analysis",
+          "publisher": "4th International congress on civil Engineering, Architecture, Building Materials and Environment.",
+          "date": "2025",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "go7uodjs7dzl7tvgoveot0b4",
+          "visible": true,
+          "name": "Barriers, Strategies, and Policy Pathways for Digital Circular Economy in Building Retrofits",
+          "publisher": "4th International congress on civil Engineering, Architecture, Building Materials and Environment.",
+          "date": "2025",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "qgz125p0hhdqri20yhuwy5sz",
+          "visible": true,
+          "name": "A Review of Circular Economy Strategies for Existing Buildings: Challenges, Solutions",
+          "publisher": "5th International conference on creative achievements of architecture, urban planning, civil engineering and environment in the sustainable development of the Middle East.",
+          "date": "2024",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "k9nf998vt7dcgas3g1zrv88a",
+          "visible": true,
+          "name": "Identifying and Surveying Parameters Affecting the Architecture of Poverty and Prioritizing Them Using the Analytic Hierarchy Process",
+          "publisher": "10th International Congress on Civil Engineering, Architecture and Urban Development.",
+          "date": "2024",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "references": {
+      "name": "References",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "references",
+      "items": [
+        {
+          "id": "ykgdsjy4q8xk65x2gsjr46yn",
+          "visible": true,
+          "name": "Prof.dr. Minoo Shafaei",
+          "description": "",
+          "summary": "<p>Associate Professor, Architecture &amp;Urban Design Department, Art University of Isfahan, Isfahan, Iran.<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:m.shafaei@aui.ac.ir\">m.shafaei@aui.ac.ir</a></p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "n82pm0mjezhoesvq3ztyv8bq",
+          "visible": true,
+          "name": "Prof.dr. Maryam Ansarimanesh",
+          "description": "",
+          "summary": "<p>Associate Professor, Architecture Department, Islamic Azad university of Kermanshah, Kermanshah, Iran</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:m.ansarimanesh@iauksh.ac.ir\">m.ansarimanesh@iauksh.ac.ir</a></p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "fi6ffh1nlzkleldyllt3u12q",
+          "visible": true,
+          "name": "Majid Rostami",
+          "description": "",
+          "summary": "<p>Master’s degree<br>Instructor, Architecture Department, Razi University, Kermanshah, Iran.<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:m.rostami@razi.ac.ir\">m.rostami@razi.ac.ir</a></p>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "skills": {
+      "name": "Skills",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "skills",
+      "items": [
+        {
+          "id": "xcxyigvbuqiqip8bmnprfeui",
+          "visible": true,
+          "name": "Architectural Design and Planning",
+          "description": "",
+          "level": 5,
+          "keywords": []
+        },
+        {
+          "id": "ose8ng5321bc3od1cflsigch",
+          "visible": true,
+          "name": "Research and Analysis",
+          "description": "",
+          "level": 5,
+          "keywords": []
+        },
+        {
+          "id": "i6se9zq1honv9nmma465rzf6",
+          "visible": true,
+          "name": "AI and Computational Design",
+          "description": "",
+          "level": 5,
+          "keywords": []
+        },
+        {
+          "id": "dnqvmzztn99d45j3lw5gcrk8",
+          "visible": true,
+          "name": "Sustainability and Environmental Design",
+          "description": "",
+          "level": 5,
+          "keywords": []
+        },
+        {
+          "id": "gylr0hqamdjcqdsld1iub2nm",
+          "visible": true,
+          "name": "Architecture Construction and Project Management",
+          "description": "",
+          "level": 5,
+          "keywords": []
+        },
+        {
+          "id": "d1vo8p5urutnn54z43lubsfz",
+          "visible": true,
+          "name": "Architecture Related Software",
+          "description": "",
+          "level": 5,
+          "keywords": []
+        },
+        {
+          "id": "zfllffmky9c7qreok00yyfiz",
+          "visible": true,
+          "name": "Consultation and Client Collaboration",
+          "description": "",
+          "level": 5,
+          "keywords": []
+        },
+        {
+          "id": "xi9kniwnvdznpyzzojmzf2ud",
+          "visible": true,
+          "name": "Academic Writing and Presentation",
+          "description": "",
+          "level": 5,
+          "keywords": []
+        },
+        {
+          "id": "lglgtv4dnso8sjqvh9puzozn",
+          "visible": true,
+          "name": "Problem Solving and Critical Thinking",
+          "description": "",
+          "level": 5,
+          "keywords": []
+        },
+        {
+          "id": "rsxe9irrp9pl14iuqebwaztx",
+          "visible": true,
+          "name": "Adaptability and Flexibility",
+          "description": "",
+          "level": 5,
+          "keywords": []
+        }
+      ]
+    },
+    "custom": {}
+  },
+  "metadata": {
+    "template": "pikachu",
+    "layout": [
+      [
+        [
+          "summary",
+          "education",
+          "publications",
+          "experience"
+        ],
+        [
+          "languages",
+          "skills",
+          "interests",
+          "certifications",
+          "profiles",
+          "awards",
+          "projects",
+          "volunteer",
+          "references"
+        ]
+      ]
+    ],
+    "css": {
+      "value": "* {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      "visible": false
+    },
+    "page": {
+      "margin": 18,
+      "format": "a4",
+      "options": {
+        "breakLine": true,
+        "pageNumbers": true
+      }
+    },
+    "theme": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "primary": "#475569"
+    },
+    "typography": {
+      "font": {
+        "family": "Cambria",
+        "subset": "latin",
+        "variants": [
+          "regular"
+        ],
+        "size": 14
+      },
+      "lineHeight": 1.5,
+      "hideIcons": false,
+      "underlineLinks": true
+    },
+    "notes": ""
+  }
 }
