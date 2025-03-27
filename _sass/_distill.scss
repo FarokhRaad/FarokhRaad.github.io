@@ -169,3 +169,14 @@ d-appendix {
     }
   }
 }
+
+// === PATCH: Fix fading hover on HTML tables inside Distill layout ===
+d-article table tr:hover,
+d-article table td:hover,
+d-article table th:hover {
+  background-color: inherit !important;
+  color: inherit !important;
+  opacity: 1 !important;
+  transition: none !important;
+}
+
