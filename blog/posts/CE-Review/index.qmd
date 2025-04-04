@@ -420,7 +420,7 @@ These strategies are not only environmentally beneficial and cost-effective, but
 
 
 ![Figure 4: Qualitative Case Studies on Energy Reduction Following Circular Interventions](Figure4.dark.png){.zoomable}
-
+![Figure 4: Qualitative Case Studies on Energy Reduction Following Circular Interventions](Figure4.light.png){.hidden}
 ## 6. Conclusion
 
 This study underscores the importance of implementing circular economy measures in existing buildings, demonstrating that such practices can help transform the construction sector toward a more sustainable future. The principles of the circular economy—including material reuse, energy efficiency, waste reduction, and water conservation—offer substantial environmental, economic, and social benefits.

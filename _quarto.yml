@@ -41,6 +41,11 @@ format:
     - text: |
         <script src="/assets/js/darklight-image-switcher.js"></script>
         <script src="/assets/js/toggle-sections.js"></script>
+        <!-- Preload Civilica dark/light logos -->
+        <link rel="preload" as="image" href="/assets/image/civilica.light.png">
+        <link rel="preload" as="image" href="/assets/image/civilica.dark.png">
+        <img src="/assets/image/civilica.light.png" style="display:none" alt="preload">
+        <img src="/assets/image/civilica.dark.png" style="display:none" alt="preload">
 extensions:
   - quarto-ext/fontawesome
 

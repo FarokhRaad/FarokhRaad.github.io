@@ -155,6 +155,7 @@ This study seeks to determine whether it is possible to identify and evaluate th
 
 
 ![Figure 1: Conceptual Model of Variables](Figure1.dark.png){.zoomable}
+![Figure 1: Conceptual Model of Variables](Figure1.light.png){.hidden}
 
 Given that the architecture of poverty encompasses multiple indicators with varying degrees of value, and considering that the reviewed literature is grounded in the Analytic Hierarchy Process (AHP), this method is deemed effective for evaluating and prioritizing these indicators.
 
@@ -200,7 +201,7 @@ Individuals who possess labor potential and earn an income sufficient for surviv
 
 
 ![Figure 2: Hierarchical Tree Model of Analytic Hierarchy Process](Figure2.dark.png){.zoomable}
-
+![Figure 2: Hierarchical Tree Model of Analytic Hierarchy Process](Figure2.light.png){.hidden}
 
 #### 4.1.4: Step Four — Pairwise Comparison of Indicators
 

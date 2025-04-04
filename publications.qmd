@@ -114,7 +114,7 @@ csl: assets/csl/apa.csl
 >}}
 
 
-<a href="/blog/posts/MS-Poverty-En" class="publication-card">
+<a href="/blog/posts/MS-Poverty" class="publication-card">
 
 ### Identifying and Surveying Parameters Affecting the Architecture of Poverty and Prioritizing Them Using the Analytic Hierarchy Process
 
