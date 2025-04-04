@@ -1,0 +1,49 @@
+project:
+  type: website
+execute:
+  freeze: auto
+website:
+  back-to-top-navigation: true
+  title: "Farokh Panahirad"
+  navbar:
+    right:
+      - text: "About"
+        href: index.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: Blog
+        href: blog/index.qmd
+editor:
+  render-on-save: true
+format:
+  html:
+    fig-align: center
+    date-format: "MMMM, YYYY"
+    theme:
+      dark: [darkly, custom.scss]
+      light: [flatly, custom.scss]
+    css: styles.css
+    toc: true
+    include-in-header:
+    - text: |
+        <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+            mediumZoom('img.zoomable', {
+              margin: 24,
+              background: '#000',
+            })
+          })
+        </script>
+    include-after-body: 
+    - text: |
+        <script src="/assets/js/darklight-image-switcher.js"></script>
+        <script src="/assets/js/toggle-sections.js"></script>
+extensions:
+  - quarto-ext/fontawesome
+
+
+
+

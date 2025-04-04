@@ -1,0 +1,17 @@
+---
+title: "Farokh Panahirad"
+subtitle: |
+  Ph.D. student specializing in the integration of **artificial intelligence** and **creativity** in architecture. Experienced in interdisciplinary research, combining advanced computational tools with human-centered methodologies to address urban planning and environmental challenges. Dedicated to advancing innovative, impactful research within dynamic academic environments.
+about:
+  template: jolla
+  links:
+    - text: '{{< fa envelope size=3x title="E-Mail" >}}'
+      href: "mailto:raad.farokh@gmail.com"
+    - text: '{{< fa brands orcid size=3x title="ORCID" >}}'
+      href: "https://orcid.org/0009-0008-5691-2240"
+    - text: '{{< fa brands google-scholar size=3x title="Google Scholar" >}}'
+      href: "https://scholar.google.com/citations?user=oZbQQPQAAAAJ"
+    - text: '![](/assets/image/civilica.dark.png){width=3em title="Civilica"}'
+      href: "https://en.civilica.com/p/68100/"
+---
+

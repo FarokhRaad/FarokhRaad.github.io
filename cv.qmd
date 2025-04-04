@@ -1,0 +1,283 @@
+---
+title: ""
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+    css: styles.css
+---
+
+## Farokh Panahirad
+*PhD student in Architecture*  
+{{<fa location-dot>}}  Kermanshah, Iran | {{<fa envelope>}} [raad.farokh@gmail.com](mailto:raad.farokh@gmail.com) | {{<fa phone>}} (+98) 918 355 2173
+
+
+---
+
+## Education
+
+::: {.timeline}
+
+::: {.entry-inline}
+
+::: {.entry-header}
+<div class="entry-title">**PhD in Architecture**</div>
+<div class="entry-badge">2020 – Present</div>
+:::
+
+*Art University of Isfahan*  
+***Proposal:*** *Artificial Intelligence as a tool to augment creativity in the architectural design process.*  
+
+:::
+
+::: {.entry-inline}
+
+::: {.entry-header}
+<div class="entry-title">**Master's Degree in Architectural Engineering**</div>
+<div class="entry-badge">2016 – 2020</div>
+:::
+
+*Islamic Azad University of Kermanshah*  
+***Thesis:*** *Architecture of Poverty: Analysis of consequences and mitigating strategies.*  
+
+:::
+
+::: {.entry-inline}
+
+::: {.entry-header}
+<div class="entry-title">**Bachelor's Degree in Architectural Technology Engineering**</div>
+<div class="entry-badge">2013 – 2015</div>
+:::
+
+*Islamic Azad University of Kermanshah*  
+***Thesis:*** *Designing a bus terminal.*  
+
+:::
+
+::: {.entry-inline}
+
+::: {.entry-header}
+<div class="entry-title">**Associate Degree in Architecture**</div>
+<div class="entry-badge">2010 – 2013</div>
+:::
+
+*Islamic Azad University of Kermanshah*  
+
+:::
+
+:::
+
+
+
+## Publications
+
+::: {.timeline}
+
+::: {.entry-inline}
+::: {.entry-header}
+<div class="entry-title">**A Comprehensive Digital Integration Framework for Circular Economy in Existing Building Retrofits**</div>
+<div class="entry-badge">2025</div>
+*4th International congress on civil Engineering, Architecture, Building Materials and Environment.*
+<div class="entry-location">{{<fa location-dot>}} Helsinki, Finland</div>
+:::
+:::
+
+::: {.entry-inline}
+::: {.entry-header}
+<div class="entry-title">**Validation of a Digital Framework for Circular Economy Retrofits: A Multi-Case Analysis**</div>
+<div class="entry-badge">2025</div>
+*4th International congress on civil Engineering, Architecture, Building Materials and Environment.*
+<div class="entry-location">{{<fa location-dot>}} Helsinki, Finland</div>
+:::
+:::
+
+::: {.entry-inline}
+::: {.entry-header}
+<div class="entry-title">**Barriers, Strategies, and Policy Pathways for Digital Circular Economy in Building Retrofits**</div>
+<div class="entry-badge">2025</div>
+*4th International congress on civil Engineering, Architecture, Building Materials and Environment.*
+<div class="entry-location">{{<fa location-dot>}} Helsinki, Finland</div>
+:::
+:::
+
+::: {.entry-inline}
+::: {.entry-header}
+<div class="entry-title">**A Review of Circular Economy Strategies for Existing Buildings: Challenges, Solutions**</div>
+<div class="entry-badge">2024</div>
+*5th International conference on creative achievements of architecture, urban planning, civil engineering and environment in the sustainable development of the Middle East*
+<div class="entry-location">{{<fa location-dot>}} Mashhad, Iran</div>
+:::
+  
+:::
+
+::: {.entry-inline}
+::: {.entry-header}
+<div class="entry-title">**Identifying and Surveying Parameters Affecting the Architecture of Poverty and Prioritizing Them Using the Analytic Hierarchy Process**</div>
+<div class="entry-badge">2024</div>
+*10th International Congress on Civil Engineering, Architecture and Urban Development*
+<div class="entry-location">{{<fa location-dot>}} Tehran, Iran</div>
+:::
+:::
+
+:::
+
+
+
+
+## Professional Experience
+
+::: {.timeline}
+
+::: {.entry-inline}
+::: {.entry-header}
+<div class="entry-title">**Technical Expert**</div>
+<div class="entry-badge">2022–2024</div>
+*Raf Tejarat Kala*
+<div class="entry-location">{{<fa location-dot>}} Kermanshah, Iran</div>
+:::
+Oversaw technical projects and provided consultancy on architectural solutions  
+:::
+
+::: {.entry-inline}
+::: {.entry-header}
+<div class="entry-title">**Technical Expert**</div>
+<div class="entry-badge">2018–2022</div>
+*Rahavard Fanavari*
+<div class="entry-location">{{<fa location-dot>}} Kermanshah, Iran</div>
+:::
+Supported multi-disciplinary teams in architectural and construction projects  
+:::
+
+::: {.entry-inline}
+::: {.entry-header}
+<div class="entry-title">**Part-time Researcher**</div>
+<div class="entry-badge">2017–2018</div>
+*Dezhkan Industries*
+<div class="entry-location">{{<fa location-dot>}} Kermanshah, Iran</div>
+:::
+Researched small-scale cement kiln development strategies  
+:::
+
+::: {.entry-inline}
+::: {.entry-header}
+<div class="entry-title">**Junior Architect**</div>
+<div class="entry-badge">2015–2018</div>
+*Tarh Design & Consultation Office* 
+<div class="entry-location">{{<fa location-dot>}} Kermanshah, Iran</div>
+:::
+Contributed to design projects and client consultations  
+:::
+
+::: {.entry-inline}
+::: {.entry-header}
+<div class="entry-title">**Senior Architect Assistant**</div>
+<div class="entry-badge">2015–2018</div>
+*Tarh Design & Consultation Office* 
+<div class="entry-location">{{<fa location-dot>}} Kermanshah, Iran</div>
+:::
+Assisted lead architect with conceptual designs and drafting  
+:::
+
+:::
+
+
+
+
+
+## Skills
+
+::: {.columns}
+
+::: {.column}
+
+* **AI-Driven and Parametric Design**   
+    + *Rhino*  
+    + *Grasshopper*  
+    + *Dynamo*  
+
+* **Data Analysis & Modeling**  
+    + *Energy Modeling*  
+    + *Life-Cycle Assessment*  
+    + *Statistical Packages* 
+
+* **Architectural Design & Planning**  
+    + *Conceptual to Schematic Phases* 
+
+
+
+:::
+
+::: {.column}
+
+* **Sustainable and Circular Economy Strategies**  
+
+* **Quantitative & Qualitative Research Methods**
+
+* **Academic Writing & Presentations**  
+
+* **Problem-Solving & Critical Thinking**  
+
+* **Adaptability & Interdisciplinary Collaboration**
+
+:::
+
+:::
+
+
+
+## Languages
+
+::: {.columns}
+
+::: {.column}
+- **Persian** – Native  
+ 
+:::
+
+::: {.column}
+* **English** – IELTS Overall Band 7.5  
+    + *Listening: 9.0*  
+    + *Reading: 7.5*  
+    + *Writing: 6.5*  
+    + *Speaking: 6.5*  
+:::
+
+:::
+
+
+
+## References
+
+::: {.columns}
+
+::: {.column}
+
+- **Prof. Dr. Minoo Shafaei**  
+Associate Professor  
+Architecture & Urban Design Department  
+Art University of Isfahan  
+{{<fa location-dot>}} Isfahan, Iran  
+{{<fa envelope>}} [m.shafaei@aui.ac.ir](mailto:m.shafaei@aui.ac.ir)
+
+- **Majid Rostami**  
+Instructor  
+Architecture Department  
+Razi University  
+{{<fa location-dot>}} Kermanshah, Iran  
+{{<fa envelope>}} [m.rostami@razi.ac.ir](mailto:m.rostami@razi.ac.ir)
+
+:::
+
+::: {.column}
+
+- **Prof. Dr. Maryam Ansarimanesh**  
+Associate Professor  
+Architecture Department  
+Islamic Azad University  
+{{<fa location-dot>}} Kermanshah, Iran  
+{{<fa envelope>}} [m.ansarimanesh@iauksh.ac.ir](mailto:m.ansarimanesh@iauksh.ac.ir)
+
+:::
+
+:::

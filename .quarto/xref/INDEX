@@ -1,0 +1,38 @@
+{
+  "about.qmd": {
+    "about.html": "4dc4c221"
+  },
+  "index.qmd": {
+    "index.html": "70f8dfe2"
+  },
+  "publications.qmd": {
+    "publications.html": "dfe49209"
+  },
+  "cv.qmd": {
+    "cv.html": "fc4536a7"
+  },
+  "posts/CE-Framework/index.qmd": {
+    "index.html": "ab6dbb1a"
+  },
+  "blog/posts/CE-Framework/index.qmd": {
+    "index.html": "c3c93b07"
+  },
+  "blog/index.qmd": {
+    "index.html": "81f99ad3"
+  },
+  "blog/posts/CE-Barriers/index.qmd": {
+    "index.html": "85e2ef04"
+  },
+  "blog/posts/CE-Validation/index.qmd": {
+    "index.html": "5e1193a6"
+  },
+  "blog/posts/MS-Poverty-En/index.qmd": {
+    "index.html": "d69bb2ed"
+  },
+  "blog/posts/CE-Review/index.qmd": {
+    "index.html": "71f9f329"
+  },
+  "blog/posts/MS-Poverty/index.qmd": {
+    "index.html": "99056d70"
+  }
+}

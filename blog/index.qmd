@@ -1,0 +1,15 @@
+---
+title: "Blog"
+listing: 
+  type: default
+  categories: true
+  sort: false
+  contents:
+  - "posts/CE-Framework"
+  - "posts/CE-Validation"
+  - "posts/CE-Barriers"
+  - "posts/CE-Review"
+  - "posts/MS-Poverty"
+
+page-layout: full
+---

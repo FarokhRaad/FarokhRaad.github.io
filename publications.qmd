@@ -1,0 +1,142 @@
+---
+title: "Publications"
+bibliography: publications.bib
+csl: assets/csl/apa.csl
+---
+---
+
+## 2025
+
+<a href="/blog/posts/CE-Framework" class="publication-card">
+
+### A Comprehensive Digital Integration Framework for Circular Economy in Existing Building Retrofits
+
+</a>
+
+
+**Farokh Panahirad**  
+*4th International Congress on Civil Engineering, Architecture, Building Materials and Environment, Helsinki, Finland*
+
+> Exploring a four-phase, technology-enabled retrofit methodology to embed Circular Economy principles into aging buildings.
+
+:::{.btn-group}
+[Show Abstract](#){.btn .btn-outline-primary .btn-sm data-toggle-id="abstract-ce-framework" onclick="toggleVisibility('abstract-ce-framework'); return false;"}
+[Show BibTeX](#){.btn .btn-outline-primary .btn-sm data-toggle-id="bibtex-ce-framework" onclick="toggleVisibility('bibtex-ce-framework'); return false;"}
+[Download PDF File](/assets/pdf/CE-Framework.pdf){.btn .btn-outline-primary .btn-sm target="_blank"}
+[Read on ResearchGate](https://www.researchgate.net/publication/390099098_A_Comprehensive_Digital_Integration_Framework_for_Circular_Economy_in_Existing_Building_Retrofits){.btn .btn-outline-primary .btn-sm target="_blank"}
+:::
+
+{{< pubextras 
+  id="ce-framework"
+  citekey="panahirad2025framework"
+>}}
+
+
+
+<a href="/blog/posts/CE-Validation" class="publication-card">
+
+### Validation of a Digital Framework for Circular Economy Retrofits: A Multi-Case Analysis
+
+</a>
+
+**Farokh Panahirad**  
+*4th International Congress on Civil Engineering, Architecture, Building Materials and Environment, Helsinki, Finland*
+
+> Empirical validation of a CE retrofit framework via eight real-world case studies using BIM, IoT, AI, and Digital Twins.
+
+:::{.btn-group}
+[Show Abstract](#){.btn .btn-outline-primary .btn-sm data-toggle-id="abstract-ce-validation" onclick="toggleVisibility('abstract-ce-validation'); return false;"}
+[Show BibTeX](#){.btn .btn-outline-primary .btn-sm data-toggle-id="bibtex-ce-validation" onclick="toggleVisibility('bibtex-ce-validation'); return false;"}
+[Download PDF File](/assets/pdf/CE-Validation.pdf){.btn .btn-outline-primary .btn-sm target="_blank"}
+[Read on ResearchGate](https://www.researchgate.net/publication/390099557_Validation_of_a_Digital_Framework_for_Circular_Economy_Retrofits_A_Multi-Case_Analysis){.btn .btn-outline-primary .btn-sm target="_blank"}
+
+:::
+
+{{< pubextras 
+  id="ce-validation"
+  citekey="panahirad2025validation"
+>}}
+
+
+
+<a href="/blog/posts/CE-Barriers" class="publication-card">
+
+### Barriers, Strategies, and Policy Pathways for Digital Circular Economy in Building Retrofits
+
+</a>
+
+**Farokh Panahirad**  
+*4th International Congress on Civil Engineering, Architecture, Building Materials and Environment, Helsinki, Finland*  
+
+> Financial, regulatory, technical, and cultural challenges to adopting CE-based retrofits, and a roadmap for digital-driven solutions.
+
+:::{.btn-group}
+[Show Abstract](#){.btn .btn-outline-primary .btn-sm data-toggle-id="abstract-ce-barriers" onclick="toggleVisibility('abstract-ce-barriers'); return false;"}
+[Show BibTeX](#){.btn .btn-outline-primary .btn-sm data-toggle-id="bibtex-ce-barriers" onclick="toggleVisibility('bibtex-ce-barriers'); return false;"}
+[Download PDF File](/assets/pdf/CE-Barriers.pdf){.btn .btn-outline-primary .btn-sm target="_blank"}
+[Read on ResearchGate](https://www.researchgate.net/publication/390099272_Barriers_Strategies_and_Policy_Pathways_for_Digital_Circular_Economy_in_Building_Retrofits){.btn .btn-outline-primary .btn-sm target="_blank"}
+:::
+
+{{< pubextras 
+  id="ce-barriers"
+  citekey="panahirad2025barriers"
+>}}
+
+
+
+---
+
+## 2024
+
+<a href="/blog/posts/CE-Review" class="publication-card">
+
+### A Review of Circular Economy Strategies for Existing Buildings: Challenges and Solutions
+
+</a>
+
+**Farokh Panahirad**  
+*5th International conference on creative achievements of architecture, urban planning, civil engineering and environment in the sustainable development of the Middle East. Mashhad, Iran*
+
+>  ***The original article is in Persian; an English translation is available as a blog post.***  
+
+> A comprehensive review of circular economy strategies for building renovation, emphasizing sustainability, reuse, and systemic transformation.
+
+:::{.btn-group}
+[Show Abstract](#){.btn .btn-outline-primary .btn-sm data-toggle-id="abstract-ce-review" onclick="toggleVisibility('abstract-ce-review'); return false;"}
+[Show BibTeX](#){.btn .btn-outline-primary .btn-sm data-toggle-id="bibtex-ce-review" onclick="toggleVisibility('bibtex-ce-review'); return false;"}
+[Download PDF File (Persian)](/assets/pdf/CE-Review.pdf){.btn .btn-outline-primary .btn-sm target="_blank"}
+[Read on ResearchGate](https://www.researchgate.net/publication/390099569_mrwry_br_astratzhyhay_aqtsad_chrkhhay_bray_sakhtmanhay_mwjwd_chalshha_rahhlha){.btn .btn-outline-primary .btn-sm target="_blank"}
+:::
+
+{{< pubextras 
+  id="ce-review"
+  citekey="panahirad2024review"
+>}}
+
+
+<a href="/blog/posts/MS-Poverty-En" class="publication-card">
+
+### Identifying and Surveying Parameters Affecting the Architecture of Poverty and Prioritizing Them Using the Analytic Hierarchy Process
+
+</a>
+
+**Farokh Panahirad, Maryam Ansarimanesh**  
+*10th International Congress on Civil Engineering, Architecture & Urban Development, Tehran, Iran*
+
+>  ***The original article is in Persian; an English translation is available as a blog post.***  
+
+> Prioritizes key factors shaping architecture in low-income contexts using AHP to support sustainable, affordable design strategies for marginalized communities.
+
+:::{.btn-group}
+[Show Abstract](#){.btn .btn-outline-primary .btn-sm data-toggle-id="abstract-ms-poverty" onclick="toggleVisibility('abstract-ms-poverty'); return false;"}
+[Show BibTeX](#){.btn .btn-outline-primary .btn-sm data-toggle-id="bibtex-ms-poverty" onclick="toggleVisibility('bibtex-ms-poverty'); return false;"}
+[Download PDF File (Persian)](/assets/pdf/MS-Poverty.pdf){.btn .btn-outline-primary .btn-sm target="_blank"}
+[Read on ResearchGate](https://www.researchgate.net/publication/390099668_shnakht_w_brrsy_shakhshay_mwthr_br_mmary_fqr_w_awlwyt_bndy_anha_ba_astfadh_az_rwsh_thlyl_slslh_mratby){.btn .btn-outline-primary .btn-sm target="_blank"}
+:::
+
+{{< pubextras 
+  id="ms-poverty"
+  citekey="panahirad2024poverty"
+>}}
+
+---

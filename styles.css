@@ -1,0 +1,276 @@
+/* ========== Responsive Layout for Mobile Devices (≤600px) ========== */
+@media (max-width: 600px) {
+  /* Stack the entry header columns vertically on smaller screens */
+  .entry-header {
+    grid-template-columns: 1fr;
+  }
+
+  /* Align badges and locations to the left on small screens */
+  .entry-badge,
+  .entry-location {
+    justify-self: start;
+  }
+}
+
+
+/* ========== Image Zoom ========== */
+img.zoomable {
+  cursor: zoom-in;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Ensure the zoom overlay is on top */
+.medium-zoom-overlay {
+  z-index: 1050 !important; /* higher than toc (usually < 1000) */
+}
+
+/* Ensure the zoomed image is also above the TOC */
+.medium-zoom-image--opened {
+  z-index: 1060 !important;
+  position: relative; /* ensure it stacks properly */
+}
+
+/* Lower the TOC z-index if needed */
+.sidebar, .toc, .quarto-sidebar {
+  z-index: 100 !important;
+}
+
+
+/* ========== Meta Row (Flex container for additional tags if needed) ========== */
+.entry-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+/* ========== Timeline Entry Block ========== */
+.entry-inline {
+  position: relative;
+  margin-bottom: 2.5rem;
+  padding-left: 2rem; /* Leaves space on the left for the timeline dot and line */
+}
+
+
+/* ========== Timeline Dot ========== */
+.entry-inline::before {
+  content: "";
+  position: absolute;
+  top: calc(1em * 0.3); /* Aligns approximately with the first line of text */
+  left: 1rem; /* Center of the 2rem left padding */
+  width: 12px;
+  height: 12px;
+  background-color: var(--bs-primary); /* Theme primary color */
+  border-radius: 50%; /* Make it a circle */
+  border: 2px solid var(--bs-body-bg); /* Match the background to create a ring effect */
+  box-shadow: 0 0 0 2px var(--bs-primary); /* Outer ring */
+  transform: translateX(-50%); /* Perfectly center the dot horizontally */
+  z-index: 2; /* Ensure dot is above the connecting line */
+}
+
+
+/* ========== Timeline Connecting Line ========== */
+.entry-inline::after {
+  content: "";
+  position: absolute;
+
+  /* Start a bit below the center of the dot (dot height = 12px, so start ~8px down) */
+  top: calc(1em * 0.3 + 6px); 
+
+  /* Same left value as the dot center */
+  left: 1rem;
+
+
+  height: calc(100% + 2.5rem);
+
+  width: 2px;
+  background-color: var(--bs-primary);
+  opacity: 20%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+
+
+/* ========== Remove Line from Last Timeline Entry ========== */
+.timeline > .entry-inline:last-child::after {
+  display: none;
+}
+
+
+/* ========== Entry Header (Title + Badges) ========== */
+.entry-header {
+  display: grid;
+  grid-template-columns: 1fr auto; /* Title on the left, badges on the right */
+  align-items: start; /* Top-align the content */
+  gap: 0.3rem 1rem; /* Space between title and badge columns */
+  margin-bottom: 0.5rem;
+}
+
+
+/* ========== Entry Title (Left Column) ========== */
+.entry-title {
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.4;
+  word-break: break-word;
+  grid-column: 1;
+}
+
+
+/* ========== Date Badge (Right Column, Row 1) ========== */
+.entry-badge {
+  background-color: var(--bs-primary); /* Theme color */
+  color: var(--bs-body-bg); /* Invert text to match background */
+  justify-self: end;
+  font-size: 0.75rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.4rem;
+  font-weight: 600;
+  white-space: nowrap;
+  grid-column: 2;
+}
+
+
+/* ========== Location Badge (Right Column, Row 2) ========== */
+.entry-location {
+  background-color: var(--bs-info);
+  color: var(--bs-body-bg);
+  justify-self: end;
+  font-size: 0.75rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.4rem;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  grid-column: 2;
+}
+
+
+/* ========== Figure/Image Styling ========== */
+.figure {
+  text-align: center;
+}
+
+.figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.fig-caption {
+  text-align: center;
+  font-style: italic;
+  margin-top: 0.5em;
+}
+
+
+
+/* ========== Navbar Link Hover Animation ========== */
+.navbar a {
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--bs-dark); /* Same as background for subtle invert effect */
+  opacity: 20%;
+  transition: width 0.3s ease;
+}
+
+.navbar a:hover {
+  color: var(--bs-dark); /* Invert on hover */
+}
+
+.navbar a:hover::after {
+  width: 100%; /* Animate underline expansion */
+}
+
+
+/* ========== Back to Top button ========== */
+#quarto-back-to-top {
+  position: fixed;
+  bottom: 1rem;
+  right: 2rem;
+  left: auto;
+  transform: none;
+  z-index: 1000;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+/* Display only the ↑ using ::after */
+#quarto-back-to-top > * {
+  display: none;
+}
+
+#quarto-back-to-top::after {
+  content: "";
+  color: var(--bs-body-color);
+  font-size: 1rem;
+  line-height: 1;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+#quarto-back-to-top:hover {
+  opacity: 1;
+}
+
+#quarto-back-to-top:hover::after {
+  color: var(--bs-primary);
+}
+
+
+/* === About section layout === */
+.about-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Remove button appearance and structure links as icon + text */
+.about-links a.btn,
+.about-links a.btn-light,
+.about-links .about-link {
+  border: none !important;
+  color: var(--bs-body-color) !important;
+}
+
+.about-links a:hover {
+  transition: transform 0.2s ease;
+  transform: scale(1.2);
+}
+
+/* === Pubextra Shorcode === */
+.pubextras-section {
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+  max-height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.pubextras-section.is-visible {
+  max-height: 1000px; /* adjust if needed */
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+
+

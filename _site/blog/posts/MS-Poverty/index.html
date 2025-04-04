@@ -1,0 +1,1670 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Farokh Panahirad">
+<meta name="author" content="Maryam Ansarimanesh">
+<meta name="keywords" content="Marginal Settlements, Informal Settlements, Poverty Architecture, Analytic Hierarchy Process">
+<meta name="description" content="Prioritizes key factors shaping architecture in low-income contexts using AHP to support sustainable, affordable design strategies for marginalized communities.">
+
+<title>Identifying and Surveying Parameters Affecting the Architecture of Poverty and Prioritizing Them Using the Analytic Hierarchy Process – Farokh Panahirad</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-6064eead220a12dfabbe5ed688011e95.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-f8efa3d1fb184b9397def8e1c1563c2c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    mediumZoom('img.zoomable', {
+      margin: 24,
+      background: '#000',
+    })
+  })
+</script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Farokh Panahirad</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../blog/index.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">1. Introduction</a></li>
+  <li><a href="#literature-review" id="toc-literature-review" class="nav-link" data-scroll-target="#literature-review">2. Literature Review</a></li>
+  <li><a href="#informal-settlements-in-iran" id="toc-informal-settlements-in-iran" class="nav-link" data-scroll-target="#informal-settlements-in-iran">3. Informal Settlements in Iran</a>
+  <ul class="collapse">
+  <li><a href="#primary-causes-of-informal-settlements-in-iranian-cities" id="toc-primary-causes-of-informal-settlements-in-iranian-cities" class="nav-link" data-scroll-target="#primary-causes-of-informal-settlements-in-iranian-cities">3.1 Primary Causes of Informal Settlements in Iranian Cities</a></li>
+  </ul></li>
+  <li><a href="#research-methodology" id="toc-research-methodology" class="nav-link" data-scroll-target="#research-methodology">4. Research Methodology</a>
+  <ul class="collapse">
+  <li><a href="#steps-of-the-analytic-hierarchy-process" id="toc-steps-of-the-analytic-hierarchy-process" class="nav-link" data-scroll-target="#steps-of-the-analytic-hierarchy-process">4.1: Steps of the Analytic Hierarchy Process</a></li>
+  </ul></li>
+  <li><a href="#data-analysis" id="toc-data-analysis" class="nav-link" data-scroll-target="#data-analysis">5. Data Analysis</a>
+  <ul class="collapse">
+  <li><a href="#group-1-analysis-the-severely-deprived" id="toc-group-1-analysis-the-severely-deprived" class="nav-link" data-scroll-target="#group-1-analysis-the-severely-deprived">5.1: Group 1 Analysis — The Severely Deprived</a></li>
+  <li><a href="#group-2-analysis-the-moderately-deprived" id="toc-group-2-analysis-the-moderately-deprived" class="nav-link" data-scroll-target="#group-2-analysis-the-moderately-deprived">5.2: Group 2 Analysis — The Moderately Deprived</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">6. Conclusion</a>
+  <ul class="collapse">
+  <li><a href="#interpretation" id="toc-interpretation" class="nav-link" data-scroll-target="#interpretation">Interpretation</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Identifying and Surveying Parameters Affecting the Architecture of Poverty and Prioritizing Them Using the Analytic Hierarchy Process</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Marginal Settlements</div>
+    <div class="quarto-category">Informal Settlements</div>
+    <div class="quarto-category">Poverty Architecture</div>
+    <div class="quarto-category">Analytic Hierarchy Process</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Prioritizes key factors shaping architecture in low-income contexts using AHP to support sustainable, affordable design strategies for marginalized communities.
+  </div>
+</div>
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliations</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Farokh Panahirad, PhD Student <a href="mailto:f.panahirad@aui.ac.ir" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0009-0008-5691-2240" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Art University of Isfahan
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Maryam Ansarimanesh, PhD <a href="mailto:m.ansarimanesh@iauksh.ac.ir" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Islamic Azad University
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <p>Architecture of poverty relies on minimalism, recycled materials, and low-cost resources (while maintaining safety standards). Regardless of construction method, erecting buildings and shelters involves two fundamental elements: the technique of using materials and the art of building. Technique is a social asset that humans imitate, learn, and evolve. The art of building defies conventional definitions, deeply rooted in artistic and aesthetic expressions, communicated through symbolism and codes. This study aims to create comfort by identifying effective indicators, assessing them, and constructing suitable shelters for low-income groups based on urban principles and their specific needs. Based on existing research, it can be confidently stated that only a fragment of perspectives regarding poverty architecture has been explored. Consequently, the question arises: how can the influential indicators of poverty architecture be identified? Employing the Analytic Hierarchy Process (AHP) method among a statistical community of experts with advanced education and extensive practical and academic experience in architecture, this research examines the characteristics of poverty architecture. The findings suggest strategies and recommendations to generate employment opportunities across various economic sectors, enhance security for low-income groups through security forces and community participation, utilize durable materials, and promote education—especially among youth—to significantly address and potentially resolve the issue of poverty architecture.</p>
+  </div>
+</div>
+
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>Marginal Settlements, Informal Settlements, Poverty Architecture, Analytic Hierarchy Process</p>
+  </div>
+</div>
+
+</header>
+
+
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The original article was written in Persian; the following is a translation of the original article.</p>
+</div>
+</div>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">1. Introduction</h2>
+<p>Cultural poverty is an inherently complex issue that cannot be easily identified. Multiple criteria have been proposed to define it, varying across different societies. In the context of Iranian society, cultural poverty is interpreted as a deviation from religious values and national identity. Economic and cultural poverty are deeply interconnected and have historically influenced one another reciprocally.</p>
+<p>In impoverished communities—those suffering from numerous constraints and deficiencies—the primary struggle has often been to meet the basic need for housing. Economic deprivation significantly impacts the architecture of these communities. In such contexts, architecture lacks in aesthetic, functional, and cultural dimensions. Buildings are reduced to mere shelters against environmental elements such as wind, sunlight, and rain, failing to meet other human needs. Here, both architecture and its users succumb to economic hardship, which in turn perpetuates societal regression. Cultural poverty thus emerges as a coexistent factor alongside economic poverty.</p>
+<p>Rapid and unbalanced physical urban development has led to adverse economic, social, and physical consequences. One of the most prominent outcomes of such disproportional urban growth is the emergence of informal settlements and urban marginalization <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<p>The phenomenon of slum and informal housing expanded after the Industrial Revolution, initially in developed countries and subsequently in developing nations, and continues to persist. The imposition of economic growth and development programs by industrialized countries gave rise to slum formation in developing regions as well <span class="citation" data-cites="farhadikhah2019"><a href="#ref-farhadikhah2019" role="doc-biblioref">[4]</a></span>.</p>
+<p>Architectural services—an amalgam of science and art—have become luxury commodities in the modern era, thereby excluding a significant portion of the population. This exclusion fosters the emergence of informal settlements, which are closely tied to financial poverty and are prevalent across most major cities. These residences often consist of a single undivided space that houses an entire family and lack essential components such as courtyards, sanitary facilities, and storage. Such living conditions starkly reflect socio-economic inequality and the unjust distribution of wealth. Poverty itself carries a distinct, intricate, and often misunderstood cultural character.</p>
+<p>The dissemination of modern construction technologies and equipment generally aligns with the framework of social justice. Another dimension of architecture—art and aesthetics—persists even within impoverished communities, though often viewed with condescension. Consequently, it becomes necessary to properly identify, refine, and represent these aesthetic expressions, akin to traditional music and local attire, but within the architectural domain—form, space, and beyond.</p>
+<p>In vernacular and poverty-induced architecture, the user’s creativity plays a primary role, while technological input is minimal. Conversely, in the architectural practices of middle- and upper-class societies, the aesthetic choices of master builders and other specialists become more pronounced. Architecture reflects the full spectrum of a society’s culture and resources.</p>
+<p>Several factors influence poverty-induced architecture, which can broadly be categorized into two groups:</p>
+<ul>
+<li>Variables intrinsic to architecture itself, such as climate and culture;</li>
+<li>Variables dependent on the societal approach to poverty, which are highly influenced by governmental programs.</li>
+</ul>
+<p>Research conducted over the past half-century has largely been descriptive and case-based, merely outlining the problem. Therefore, there is an urgent need for ongoing applied research that, while grounded in reality, is capable of generating internally-driven solutions to improve prevailing conditions.</p>
+</section>
+<section id="literature-review" class="level2">
+<h2 class="anchored" data-anchor-id="literature-review">2. Literature Review</h2>
+<p>The relatively comprehensive study of informal settlements in Iran began in the late 1960s. The earliest organized investigations commenced in 1963 with the establishment of the Ministry of Housing and Urban Development, under the supervision of its Department of Social Affairs. These studies primarily provided descriptive accounts of life in marginal neighborhoods <span class="citation" data-cites="hajyousefi2002"><a href="#ref-hajyousefi2002" role="doc-biblioref">[5]</a></span>.</p>
+<p>In the early 1970s, with the collaboration of the Plan and Budget Organization and the Institute for Social Studies and Research at the University of Tehran, informal settlements in several major Iranian cities—including Bandar Abbas, Hamedan, and Kermanshah—were studied. These investigations characterized the general features of these settlements and classified them based on housing types <span class="citation" data-cites="ahsan1972"><a href="#ref-ahsan1972" role="doc-biblioref">[6]</a></span>.</p>
+<p>During the 1980s, a significant body of work was developed by Parviz Piran. Published gradually throughout the 1980s and 1990s in the Political and Economic Information monthly journal, his research substantially enriched the theoretical discourse on urban poverty and informal housing in Iran. Piran addressed exogenous development, urbanization, and slum formation from both theoretical and empirical perspectives. He proposed a three-tiered model—micro, meso, and macro levels—for understanding the causes of informal settlement formation, which he further applied in subsequent case studies <span class="citation" data-cites="piran1994"><a href="#ref-piran1994" role="doc-biblioref">[7]</a></span>.</p>
+<p>In the 1990s, a field-based research project on marginalization in Iran—specifically in Tehran—was undertaken. This relatively detailed study explored the historical background, causes, and characteristics of the phenomenon. The findings were later published under the title <em>Marginalization in Iran and Solutions</em>, which critically examined the role of formal institutions and urban planning in contributing to the emergence of informal settlements <span class="citation" data-cites="moshaks2015"><a href="#ref-moshaks2015" role="doc-biblioref">[8]</a></span>.</p>
+<p>Meanwhile, in the 1970s, many developing countries recognized their inability to address the housing crisis for low-income populations using existing top-down approaches focused on construction and shelter provision. Consequently, the role of the state shifted from direct provider of housing to enabler of services, fostering the empowerment of residents. This transformation allowed marginalized groups to engage in various aspects of housing development, including construction, financial planning, and project management <span class="citation" data-cites="skinner1987"><a href="#ref-skinner1987" role="doc-biblioref">[9]</a></span>.</p>
+<p>In another study aimed at addressing the problem of informal settlements, researchers utilized the Analytic Hierarchy Process (AHP) to prioritize possible solutions, arriving at the following conclusions <span class="citation" data-cites="hema2012"><a href="#ref-hema2012" role="doc-biblioref">[10]</a></span>:</p>
+<ul>
+<li>First priority: Relocating residents of informal settlements to neighborhoods with improved living conditions.<br>
+</li>
+<li>Second priority: Redevelopment of the neighborhood in accordance with legal and urban standards.<br>
+</li>
+<li>Third priority: Upgrading current conditions and providing essential infrastructure.</li>
+</ul>
+<p>In response to health and environmental issues caused by informal settlements, the Indonesian government proposed relocating affected residents. The proposed strategies were:</p>
+<ol type="1">
+<li>Provision of sanitary infrastructure;<br>
+</li>
+<li>Relocation to supported housing units;<br>
+</li>
+<li>Relocation to supported apartment units.</li>
+</ol>
+<p>Using AHP and evaluating strategies based on criteria such as cost, available technology, environmental impact, and accessibility, researchers reached the following conclusions <span class="citation" data-cites="dewi2017"><a href="#ref-dewi2017" role="doc-biblioref">[11]</a></span>:</p>
+<ul>
+<li><strong>Best solution by cost:</strong> Provision of sanitary infrastructure;<br>
+</li>
+<li><strong>Best solution by available technology:</strong> Relocation to supported housing units;<br>
+</li>
+<li><strong>Best solution by environmental impact:</strong> Relocation to supported apartment units;<br>
+</li>
+<li><strong>Best solution by accessibility:</strong> Provision of sanitary infrastructure;<br>
+</li>
+<li><strong>Best overall solution across all criteria:</strong> Relocation to supported apartment units.</li>
+</ul>
+<hr>
+</section>
+<section id="informal-settlements-in-iran" class="level2">
+<h2 class="anchored" data-anchor-id="informal-settlements-in-iran">3. Informal Settlements in Iran</h2>
+<p>The phenomenon of informal settlements has historical roots extending far back into the past. This socio-spatial issue has existed in both developed and developing countries. However, informal settlements in developed nations differ from those in developing contexts in terms of historical causes and the social behaviors of marginalized populations. The impacts of informal settlements became more prominent following World War II, particularly after the collapse of the global economic system and the subsequent increase in poverty across many countries. As a result, informal settlements emerged as a critical challenge for urban planning and megacity governance.</p>
+<section id="primary-causes-of-informal-settlements-in-iranian-cities" class="level3">
+<h3 class="anchored" data-anchor-id="primary-causes-of-informal-settlements-in-iranian-cities">3.1 Primary Causes of Informal Settlements in Iranian Cities</h3>
+<section id="the-entry-of-oil-revenues-into-irans-economy-and-the-decline-of-agricultural-dependency" class="level4">
+<h4 class="anchored" data-anchor-id="the-entry-of-oil-revenues-into-irans-economy-and-the-decline-of-agricultural-dependency">3.1.1: The Entry of Oil Revenues into Iran’s Economy and the Decline of Agricultural Dependency</h4>
+<p>The introduction of oil revenues and the growing dependence of development programs on petroleum income disrupted the traditional rural-urban relationship in Iran. Simultaneously, the expansion of new and assembly-based industries created employment opportunities in urban centers, making cities attractive destinations for rural populations. In provinces with strong agricultural bases, this shift manifested more significantly. Rural depopulation due to migration, along with climatic and other pressures, contributed to rapid urban population growth—sometimes amounting to urban explosions—which in turn led to housing shortages and the proliferation of informal settlements.</p>
+</section>
+<section id="peripheralization-of-urban-surplus-population" class="level4">
+<h4 class="anchored" data-anchor-id="peripheralization-of-urban-surplus-population">3.1.2: Peripheralization of Urban Surplus Population</h4>
+<p>Urban decentralization policies led to the relocation of wealthier and middle-class populations to suburban areas. Consequently, urban peripheries became increasingly occupied by low-income groups. This spatial redistribution worsened the living conditions in these urban fringes and facilitated the rapid, almost fungal, growth of informal settlements.</p>
+</section>
+<section id="poverty" class="level4">
+<h4 class="anchored" data-anchor-id="poverty">3.1.3: Poverty</h4>
+<p>A major driver of rural-to-urban migration, and by extension the spread of informal settlements, is poverty in rural communities and small towns. Over the decades, this dynamic has resulted in the urbanization of rural poverty. This trend represents a significant departure from the traditional concentration of poverty in rural areas. Through rural migration, poverty has been transferred and reproduced in urban contexts, becoming a key factor in the growth of informal settlements both in Iran and globally.</p>
+</section>
+<section id="legal-challenges" class="level4">
+<h4 class="anchored" data-anchor-id="legal-challenges">3.1.4: Legal Challenges</h4>
+<p>The absence of clear regulations governing urban boundaries, along with the failure to implement land-use classification laws during the early stages of urban development, has allowed industrial zones to encroach upon residential areas. The resulting proximity and population density have directly contributed to the formation of informal settlements within cities.</p>
+</section>
+<section id="institutional-inability-to-integrate-migrants-and-provide-urban-planning-services" class="level4">
+<h4 class="anchored" data-anchor-id="institutional-inability-to-integrate-migrants-and-provide-urban-planning-services">3.1.5: Institutional Inability to Integrate Migrants and Provide Urban Planning Services</h4>
+<p>Iran’s urban management lacks the necessary frameworks and readiness to organize and integrate new arrivals and migrants. Authorities often avoid taking responsibility for emerging informal settlements by labeling them as “illegal constructions,” especially during their initial stages, thereby neglecting their governance and spatial organization.</p>
+</section>
+<section id="incorporation-of-peripheral-villages-into-urban-fabric" class="level4">
+<h4 class="anchored" data-anchor-id="incorporation-of-peripheral-villages-into-urban-fabric">3.1.6: Incorporation of Peripheral Villages into Urban Fabric</h4>
+<p>As cities expand, surrounding rural areas are absorbed into the urban fabric. These areas, characterized by distinct rural morphologies, offer affordable settlement options for low-income and newly arrived populations. However, their structural and spatial divergence reproduces informal forms of marginalization within the urban core.</p>
+</section>
+<section id="other-contributing-factors" class="level4">
+<h4 class="anchored" data-anchor-id="other-contributing-factors">3.1.7: Other Contributing Factors</h4>
+<p>Additional contributing factors noted in various studies include the concentration of economic activities in cities, which attracts rural populations; weak oversight and control in urban governance systems; reduced influence of migration on population growth rates due to increased internal mobility; high land and housing costs and rents in cities like Tehran; and the exemption of rural areas from urban construction restrictions during the 1986–1996 period.</p>
+<p>This study seeks to determine whether it is possible to identify and evaluate the factors and indicators that significantly affect the architecture of poverty and informal settlements. It aims to explore their relative importance—both from whole to part and part to whole—in order to develop practical and effective responses to these challenges.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Figure1.dark.png" class="zoomable img-fluid figure-img"></p>
+<figcaption>Figure 1: Conceptual Model of Variables</figcaption>
+</figure>
+</div>
+<p>Given that the architecture of poverty encompasses multiple indicators with varying degrees of value, and considering that the reviewed literature is grounded in the Analytic Hierarchy Process (AHP), this method is deemed effective for evaluating and prioritizing these indicators.</p>
+</section>
+</section>
+</section>
+<section id="research-methodology" class="level2">
+<h2 class="anchored" data-anchor-id="research-methodology">4. Research Methodology</h2>
+<p>The Analytic Hierarchy Process (AHP), developed by Thomas L. Saaty in the 1970s <span class="citation" data-cites="ghodsipour2000"><a href="#ref-ghodsipour2000" role="doc-biblioref">[12]</a></span>, is one of the most well-established multi-criteria decision-making techniques. The core of this method lies in pairwise comparisons of indicators and is especially useful when decision-making involves multiple options and both quantitative and qualitative criteria.</p>
+<section id="steps-of-the-analytic-hierarchy-process" class="level3">
+<h3 class="anchored" data-anchor-id="steps-of-the-analytic-hierarchy-process">4.1: Steps of the Analytic Hierarchy Process</h3>
+<section id="step-one-defining-the-main-objective" class="level4">
+<h4 class="anchored" data-anchor-id="step-one-defining-the-main-objective">4.1.1: Step One — Defining the Main Objective</h4>
+<p>The first step involves establishing the primary goal of the study. In this research, the objective is to prioritize the indicators influencing the architecture of poverty.</p>
+</section>
+<section id="step-two-structuring-the-problem-hierarchically" class="level4">
+<h4 class="anchored" data-anchor-id="step-two-structuring-the-problem-hierarchically">4.1.2: Step Two — Structuring the Problem Hierarchically</h4>
+<p>At this stage, the decision-making problem must be broken down into several indicators across hierarchical levels. Understanding the factors influencing housing for the poor is crucial for planning, designing, and constructing suitable settlements aimed at mitigating informal housing. Failure to adequately recognize or assign appropriate weight to these indicators may result in project failure.</p>
+<p>To identify, examine, and classify the effective indicators, the author reviewed relevant literature and consulted experts in the field. Based on this process, the following indicators and their default sensitivity weights (assumed equally important at this stage) were identified and are listed in Table 1.</p>
+<table class="table-striped caption-top table">
+<caption>Table 1: Key Indicators Affecting Supportive Housing</caption>
+<colgroup>
+<col style="width: 61%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicator</th>
+<th>Default Sensitivity Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ownership and Autonomy</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>Safety and Structural Stability</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>Building Appearance and Interior Sufficiency</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>Cultural Compatibility with Residents</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>Flexibility for Necessities</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>Access to Infrastructure and Urban Networks</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="step-three-defining-comparative-options" class="level4">
+<h4 class="anchored" data-anchor-id="step-three-defining-comparative-options">4.1.3: Step Three — Defining Comparative Options</h4>
+<p>In this step, the alternatives (or comparison groups) must be determined. Similar to other statistical populations, the residents of informal settlements cannot be categorized uniformly in terms of income, abilities, and needs. To allow more accurate analysis and evaluation of indicators, the target population has been divided into three groups based on socioeconomic conditions:</p>
+<p><strong>Group 1: The Severely Deprived</strong><br>
+Individuals or families with no financial resources, earning capability, or labor potential. This group includes elderly or disabled individuals with neither workforce capacity nor reliable income.</p>
+<p><strong>Group 2: The Moderately Deprived</strong><br>
+Individuals with minimal income or unskilled labor capacity. They are able to subsist at a basic level, with relatively less deprivation compared to Group 1.</p>
+<p><strong>Group 3: The Marginally Deprived</strong><br>
+Individuals who possess labor potential and earn an income sufficient for survival, but not adequate for acquiring housing.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Figure2.dark.png" class="zoomable img-fluid figure-img"></p>
+<figcaption>Figure 2: Hierarchical Tree Model of Analytic Hierarchy Process</figcaption>
+</figure>
+</div>
+</section>
+<section id="step-four-pairwise-comparison-of-indicators" class="level4">
+<h4 class="anchored" data-anchor-id="step-four-pairwise-comparison-of-indicators">4.1.4: Step Four — Pairwise Comparison of Indicators</h4>
+<p>The next step involves expert-based comparisons and decision-making regarding the indicators. These comparisons are carried out using a scale of nine levels, as shown in Table 2. The preference of an indicator over itself is rated as one.</p>
+<table class="table-striped caption-top table">
+<caption>Table 2: Pairwise Comparison Scale of Indicators</caption>
+<colgroup>
+<col style="width: 8%">
+<col style="width: 33%">
+<col style="width: 58%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Score</th>
+<th>Definition</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Equal importance</td>
+<td>Two indicators are of equal significance.</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Slightly more important</td>
+<td>Indicator i is slightly more important than j.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>More important</td>
+<td>Indicator i is more important than j.</td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>Significantly more important</td>
+<td>Indicator i is much more important than j.</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Absolutely more important</td>
+<td>Indicator i is absolutely more important.</td>
+</tr>
+<tr class="even">
+<td>2,4,6,8</td>
+<td>Intermediate values</td>
+<td>Used when compromise is necessary between two judgments.</td>
+</tr>
+</tbody>
+</table>
+<p>Expert comparisons are conducted through a structured questionnaire, as exemplified in Table 3, where indicators to be compared are listed on either side. The expert selects the degree of preference indicating the relative importance of one indicator over the other.</p>
+<table class="table-striped caption-top table">
+<caption>Table 3: An example of the questionnaire, in this example <strong>Ownership &amp; Autonomy</strong> is being compared to the rest of the indicators.</caption>
+<colgroup>
+<col style="width: 16%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicator i</th>
+<th>9</th>
+<th>8</th>
+<th>7</th>
+<th>6</th>
+<th>5</th>
+<th>4</th>
+<th>3</th>
+<th>2</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+<th>Indicator j</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ownership &amp; Autonomy</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>Safety &amp; Stability</td>
+</tr>
+<tr class="even">
+<td>Ownership &amp; Autonomy</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>Appearance &amp; Sufficiency</td>
+</tr>
+<tr class="odd">
+<td>Ownership &amp; Autonomy</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>Cultural Compatibility</td>
+</tr>
+<tr class="even">
+<td>Ownership &amp; Autonomy</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>Flexibility</td>
+</tr>
+<tr class="odd">
+<td>Ownership &amp; Autonomy</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>O</td>
+<td>Infrastructure Access</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="step-five-data-collection-and-analysis" class="level4">
+<h4 class="anchored" data-anchor-id="step-five-data-collection-and-analysis">4.1.5: Step Five — Data Collection and Analysis</h4>
+<p>The researcher conducted a survey among experts using a questionnaire designed according to the AHP methodology. After collecting raw data, the results were processed using specialized AHP software to evaluate and rank the indicators based on predefined criteria.</p>
+</section>
+</section>
+</section>
+<section id="data-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="data-analysis">5. Data Analysis</h2>
+<section id="group-1-analysis-the-severely-deprived" class="level3">
+<h3 class="anchored" data-anchor-id="group-1-analysis-the-severely-deprived">5.1: Group 1 Analysis — The Severely Deprived</h3>
+<p>This group includes individuals or households without any financial capacity, labor ability, or income—such as elderly or disabled individuals with no viable means of livelihood.</p>
+<table class="table-striped caption-top table">
+<caption>Table 4: Pairwise Comparison Matrix – Group 1</caption>
+<colgroup>
+<col style="width: 18%">
+<col style="width: 13%">
+<col style="width: 12%">
+<col style="width: 16%">
+<col style="width: 15%">
+<col style="width: 8%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicators →</th>
+<th>Ownership &amp; Autonomy</th>
+<th>Safety &amp; Stability</th>
+<th>Appearance &amp; Sufficiency</th>
+<th>Cultural Compatibility</th>
+<th>Flexibility</th>
+<th>Infrastructure Access</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ownership &amp; Autonomy</td>
+<td>1.00</td>
+<td>0.25</td>
+<td>5.00</td>
+<td>3.00</td>
+<td>0.50</td>
+<td>0.20</td>
+</tr>
+<tr class="even">
+<td>Safety &amp; Stability</td>
+<td>4.00</td>
+<td>1.00</td>
+<td>6.00</td>
+<td>4.00</td>
+<td>3.00</td>
+<td>0.50</td>
+</tr>
+<tr class="odd">
+<td>Appearance &amp; Sufficiency</td>
+<td>0.20</td>
+<td>0.17</td>
+<td>1.00</td>
+<td>0.25</td>
+<td>0.25</td>
+<td>0.17</td>
+</tr>
+<tr class="even">
+<td>Cultural Compatibility</td>
+<td>0.33</td>
+<td>0.25</td>
+<td>4.00</td>
+<td>1.00</td>
+<td>1.00</td>
+<td>0.20</td>
+</tr>
+<tr class="odd">
+<td>Flexibility</td>
+<td>2.00</td>
+<td>0.33</td>
+<td>4.00</td>
+<td>3.00</td>
+<td>1.00</td>
+<td>0.20</td>
+</tr>
+<tr class="even">
+<td>Infrastructure Access</td>
+<td>5.00</td>
+<td>1.00</td>
+<td>6.00</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>1.00</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="group-2-analysis-the-moderately-deprived" class="level3">
+<h3 class="anchored" data-anchor-id="group-2-analysis-the-moderately-deprived">5.2: Group 2 Analysis — The Moderately Deprived</h3>
+<p>This group consists of individuals with low-skilled labor capacity or minimum income sufficient for basic subsistence.</p>
+<table class="caption-top table">
+<caption>Table 5: Pairwise Comparison Matrix – Group 2 {.striped} ### 5.3: Group 3 Analysis — The Marginally Deprived</caption>
+<colgroup>
+<col style="width: 18%">
+<col style="width: 13%">
+<col style="width: 12%">
+<col style="width: 16%">
+<col style="width: 15%">
+<col style="width: 8%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicators →</th>
+<th>Ownership &amp; Autonomy</th>
+<th>Safety &amp; Stability</th>
+<th>Appearance &amp; Sufficiency</th>
+<th>Cultural Compatibility</th>
+<th>Flexibility</th>
+<th>Infrastructure Access</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ownership &amp; Autonomy</td>
+<td>1.00</td>
+<td>0.25</td>
+<td>5.00</td>
+<td>3.00</td>
+<td>0.50</td>
+<td>0.20</td>
+</tr>
+<tr class="even">
+<td>Safety &amp; Stability</td>
+<td>4.00</td>
+<td>1.00</td>
+<td>5.00</td>
+<td>4.00</td>
+<td>4.00</td>
+<td>0.50</td>
+</tr>
+<tr class="odd">
+<td>Appearance &amp; Sufficiency</td>
+<td>0.20</td>
+<td>0.20</td>
+<td>1.00</td>
+<td>0.25</td>
+<td>0.25</td>
+<td>0.17</td>
+</tr>
+<tr class="even">
+<td>Cultural Compatibility</td>
+<td>0.33</td>
+<td>0.25</td>
+<td>4.00</td>
+<td>1.00</td>
+<td>0.50</td>
+<td>0.17</td>
+</tr>
+<tr class="odd">
+<td>Flexibility</td>
+<td>2.00</td>
+<td>0.25</td>
+<td>4.00</td>
+<td>2.00</td>
+<td>1.00</td>
+<td>0.25</td>
+</tr>
+<tr class="even">
+<td>Infrastructure Access</td>
+<td>5.00</td>
+<td>2.00</td>
+<td>6.00</td>
+<td>6.00</td>
+<td>4.00</td>
+<td>1.00</td>
+</tr>
+</tbody>
+</table>
+<p>This group includes individuals who have labor capacity and basic income but insufficient resources for securing adequate housing.</p>
+<table class="table-striped caption-top table">
+<caption>Table 6: Pairwise Comparison Matrix – Group 3</caption>
+<colgroup>
+<col style="width: 18%">
+<col style="width: 13%">
+<col style="width: 12%">
+<col style="width: 16%">
+<col style="width: 15%">
+<col style="width: 8%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicators →</th>
+<th>Ownership &amp; Autonomy</th>
+<th>Safety &amp; Stability</th>
+<th>Appearance &amp; Sufficiency</th>
+<th>Cultural Compatibility</th>
+<th>Flexibility</th>
+<th>Infrastructure Access</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ownership &amp; Autonomy</td>
+<td>1.00</td>
+<td>0.25</td>
+<td>4.00</td>
+<td>3.00</td>
+<td>4.00</td>
+<td>0.25</td>
+</tr>
+<tr class="even">
+<td>Safety &amp; Stability</td>
+<td>4.00</td>
+<td>1.00</td>
+<td>4.00</td>
+<td>4.00</td>
+<td>4.00</td>
+<td>0.50</td>
+</tr>
+<tr class="odd">
+<td>Appearance &amp; Sufficiency</td>
+<td>0.25</td>
+<td>0.25</td>
+<td>1.00</td>
+<td>0.33</td>
+<td>0.33</td>
+<td>0.17</td>
+</tr>
+<tr class="even">
+<td>Cultural Compatibility</td>
+<td>0.33</td>
+<td>0.25</td>
+<td>3.00</td>
+<td>1.00</td>
+<td>0.50</td>
+<td>0.20</td>
+</tr>
+<tr class="odd">
+<td>Flexibility</td>
+<td>0.25</td>
+<td>0.25</td>
+<td>3.00</td>
+<td>2.00</td>
+<td>1.00</td>
+<td>0.20</td>
+</tr>
+<tr class="even">
+<td>Infrastructure Access</td>
+<td>4.00</td>
+<td>2.00</td>
+<td>6.00</td>
+<td>5.00</td>
+<td>5.00</td>
+<td>1.00</td>
+</tr>
+</tbody>
+</table>
+<p>These matrices will be used to calculate weights and rankings of the indicators for each group using AHP computation tools.</p>
+</section>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">6. Conclusion</h2>
+<p>The results of this study illustrate the prioritization and relative importance of each architectural indicator, based on the specific needs and socio-economic conditions of three distinct population groups. These indicators serve as criteria for constructing dwellings aimed at alleviating informal settlement challenges.</p>
+<table class="table-striped caption-top table">
+<caption>Table 7: Indicator Prioritization – Group 1 (Severely Deprived)</caption>
+<thead>
+<tr class="header">
+<th>Indicator</th>
+<th>Rank</th>
+<th>Weight (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Access to Infrastructure and Urban Networks</td>
+<td>1</td>
+<td>40.4%</td>
+</tr>
+<tr class="even">
+<td>Safety and Structural Stability</td>
+<td>2</td>
+<td>26.6%</td>
+</tr>
+<tr class="odd">
+<td>Flexibility for Necessities</td>
+<td>3</td>
+<td>4.9%</td>
+</tr>
+<tr class="even">
+<td>Ownership and Autonomy</td>
+<td>4</td>
+<td>10.4%</td>
+</tr>
+<tr class="odd">
+<td>Cultural Compatibility with Residents</td>
+<td>5</td>
+<td>6.5%</td>
+</tr>
+<tr class="even">
+<td>Building Appearance and Interior Sufficiency</td>
+<td>6</td>
+<td>3.3%</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Figure3.jpg" class="zoomable img-fluid figure-img"></p>
+<figcaption>Figure 3: Percentage Chart – Group 1 Indicator Prioritization</figcaption>
+</figure>
+</div>
+<table class="table-striped caption-top table">
+<caption>Table 8: Indicator Prioritization – Group 2 (Moderately Deprived)</caption>
+<thead>
+<tr class="header">
+<th>Indicator</th>
+<th>Rank</th>
+<th>Weight (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Access to Infrastructure and Urban Networks</td>
+<td>1</td>
+<td>39.5%</td>
+</tr>
+<tr class="even">
+<td>Safety and Structural Stability</td>
+<td>2</td>
+<td>27.9%</td>
+</tr>
+<tr class="odd">
+<td>Flexibility for Necessities</td>
+<td>3</td>
+<td>11.9%</td>
+</tr>
+<tr class="even">
+<td>Ownership and Autonomy</td>
+<td>4</td>
+<td>10.6%</td>
+</tr>
+<tr class="odd">
+<td>Cultural Compatibility with Residents</td>
+<td>5</td>
+<td>6.7%</td>
+</tr>
+<tr class="even">
+<td>Building Appearance and Interior Sufficiency</td>
+<td>6</td>
+<td>3.4%</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Figure4.jpg" class="zoomable img-fluid figure-img"></p>
+<figcaption>Figure 4: Percentage Chart – Group 2 Indicator Prioritization</figcaption>
+</figure>
+</div>
+<table class="table-striped caption-top table">
+<caption>Table 9: Indicator Prioritization – Group 3 (Marginally Deprived)</caption>
+<thead>
+<tr class="header">
+<th>Indicator</th>
+<th>Rank</th>
+<th>Weight (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Access to Infrastructure and Urban Networks</td>
+<td>1</td>
+<td>38.6%</td>
+</tr>
+<tr class="even">
+<td>Safety and Structural Stability</td>
+<td>2</td>
+<td>27.9%</td>
+</tr>
+<tr class="odd">
+<td>Ownership and Autonomy</td>
+<td>3</td>
+<td>15.2%</td>
+</tr>
+<tr class="even">
+<td>Flexibility for Necessities</td>
+<td>4</td>
+<td>7.9%</td>
+</tr>
+<tr class="odd">
+<td>Cultural Compatibility with Residents</td>
+<td>5</td>
+<td>6.5%</td>
+</tr>
+<tr class="even">
+<td>Building Appearance and Interior Sufficiency</td>
+<td>6</td>
+<td>4.0%</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Figure5.jpg" class="zoomable img-fluid figure-img"></p>
+<figcaption>Figure 5: Percentage Chart – Group 3 Indicator Prioritization</figcaption>
+</figure>
+</div>
+<section id="interpretation" class="level3">
+<h3 class="anchored" data-anchor-id="interpretation">Interpretation</h3>
+<p>The findings highlight the varying significance of each indicator among different socio-economic groups. Notably, access to infrastructure and urban networks consistently ranks as the top priority across all groups. This emphasizes its foundational role in any housing initiative aimed at marginalized populations.</p>
+<p>However, it is crucial to recognize that while relative rankings help prioritize interventions, every indicator remains fundamentally important. A ranking system should not imply that lower-ranked elements—such as building appearance—are dispensable. Rather, their design and implementation should be aligned with the project’s priorities, necessities, and principles of architectural adequacy.</p>
+<p>From the perspective of the experts surveyed in this study, certain indicators warrant greater attention in practice, particularly when designing architectural interventions to serve vulnerable populations. Addressing these key areas increases the likelihood of successful implementation of housing and urban design projects targeted at reducing poverty and informal settlements.</p>
+
+
+
+</section>
+</section>
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-salehiamiri2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div class="csl-right-inline">R. Salehi Amiri and Z. Khodaei, <em>Marginality and informal settlements: Challenges and consequences</em>. Ghoghnus Publications, 2016.</div>
+</div>
+<div id="ref-anjoman2013" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] </div><div class="csl-right-inline">Iranian Sociological Association and National Social Council, <em>Social harms of marginalization: Neighborhood relations and apartment living</em>. Agah Publications, 2013.</div>
+</div>
+<div id="ref-mostafavi2011" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] </div><div class="csl-right-inline">R. Mostafavi and N. Hashemzehi, <em>Social harms in tehran: A meta-analysis of research on divorce and marginalization</em>. Society; Culture Publications, 2011.</div>
+</div>
+<div id="ref-farhadikhah2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] </div><div class="csl-right-inline">H. Farhadikhah, H. Hataminajad, and A. Shahi, <span>“Residential patterns of migrants and their relation with urban poverty and marginality: Case of mashhad,”</span> <em>Urban Economics</em>, vol. 4, no. 1, 2019.</div>
+</div>
+<div id="ref-hajyousefi2002" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] </div><div class="csl-right-inline">A. Haj Yousefi, <span>“Marginalization and its evolutionary process (pre-revolution),”</span> <em>Haft Shahr Quarterly</em>, vol. 3, no. 8, pp. 12–24, 2002.</div>
+</div>
+<div id="ref-ahsan1972" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[6] </div><div class="csl-right-inline">M. Ahsan, M. Niroumand, and R. Hoseini Karzani, <em>Marginalization in hamedan and kermanshah</em>. Institute for Social Studies; Research, University of Tehran, 1972.</div>
+</div>
+<div id="ref-piran1994" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[7] </div><div class="csl-right-inline">P. Piran, <span>“Squatter settlements in iran: Theoretical approaches with attention to iranian context,”</span> <em>Political-Economic Information</em>, 1994.</div>
+</div>
+<div id="ref-moshaks2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[8] </div><div class="csl-right-inline">M. of Housing and U. Development, <span>“Marginality and its effects on cities: Recognizing the low-income as citizens,”</span> Urban Development; Architecture Research Center of Iran, 1995.</div>
+</div>
+<div id="ref-skinner1987" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[9] </div><div class="csl-right-inline">R. J. Skinner, J. L. Taylor, and E. A. Wegelin, <em>Shelter upgrading for the urban poor: Evaluation of third world experience</em>. Island Publishing House, Inc., 1987.</div>
+</div>
+<div id="ref-hema2012" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[10] </div><div class="csl-right-inline">D. Hema, <span>“Analytical hierarchy process (AHP) methods for slum development analysis,”</span> <em>International Journal of Mathematics and Computer Applications Research</em>, vol. 2, no. 2, pp. 14–32, 2012.</div>
+</div>
+<div id="ref-dewi2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[11] </div><div class="csl-right-inline">M. S. Dewi, D. M. Hartono, S. S. Moersidik, and I. Kustiwan, <span>“Analytical hierarchy process for decision making in managing slum area,”</span> <em>International Journal of Engineering Research &amp; Technology</em>, vol. 6, no. 4, 2017.</div>
+</div>
+<div id="ref-ghodsipour2000" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[12] </div><div class="csl-right-inline">H. Ghodsipour, <em>Analytic hierarchy process (AHP)</em>. Amirkabir University Press, 2000.</div>
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p> What follows is an adaptation from the following sources: <span class="citation" data-cites="salehiamiri2016"><a href="#ref-salehiamiri2016" role="doc-biblioref">[1]</a></span>, <span class="citation" data-cites="anjoman2013"><a href="#ref-anjoman2013" role="doc-biblioref">[2]</a></span>, <span class="citation" data-cites="mostafavi2011"><a href="#ref-mostafavi2011" role="doc-biblioref">[3]</a></span><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-panahirad2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+<div class="">F.
+Panahirad and M. Ansarimanesh, <span>“Identifying and Surveying
+Parameters Affecting the Architecture of Poverty and Prioritizing Them
+Using the Analytic Hierarchy Process,”</span> in <em>10th International
+Congress on Civil Engineering, Architecture &amp; Urban Development,
+Tehran, Iran.</em>, Dec. 2024.</div>
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = true;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<script src="../../../assets/js/darklight-image-switcher.js"></script>
+<script src="../../../assets/js/toggle-sections.js"></script>
+
+
+
+
+</body></html>

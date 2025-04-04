@@ -1,0 +1,467 @@
+---
+title: "A Review of Circular Economy Strategies for Existing Buildings: Challenges and Solutions"
+image: "Banner.png"
+description: A comprehensive review of circular economy strategies for building renovation, emphasizing sustainability, reuse, and systemic transformation.
+date: "2024-11-01"
+citation:
+  type: paper-conference
+  container-title: The 5th international conference on creative achievements of architecture, urban planning, civil engineering and environment in the sustainable development of the Middle East papers, Mashhad, Iran.
+appendix-cite-as: display
+categories:
+  - Circular Economy
+  - Sustainable Architecture
+  - Building Renovation
+  - Resource Efficiency
+author:
+  - name: Farokh Panahirad
+    degrees: 
+      - PhD Student
+    corresponding: true
+    email: f.panahirad@aui.ac.ir
+    orcid: 0009-0008-5691-2240
+    affiliations:
+    - name: Art University of Isfahan
+      department: Faculty of Architecture and Urban Design
+      state: Isfahan
+      country: Iran
+abstract: >
+  The construction sector is one of the main contributors to waste generation, depletion of natural resources, and environmental degradation. This article examines the role of circular economy strategies in existing buildings, analyzing the associated challenges, solutions, and future pathways. Using a systematic literature review and qualitative analysis, the environmental, economic, and social benefits of circular actions—such as material reuse and recycling, energy efficiency, waste reduction, water conservation, and operational optimization—have been identified.
+  Moreover, challenges including high initial costs, technical limitations, regulatory barriers, and market issues are explored. Proposed solutions involve financial incentives, policy reforms, the development of innovative technologies, and stakeholder education. The findings indicate that adopting circular economy practices can help reduce the carbon footprint of buildings, preserve natural resources, enhance occupant health and well-being, lower energy costs, increase property value, and create job opportunities.
+  The paper emphasizes the importance of behavioral and cultural change in adopting circular approaches and promoting a culture of sustainability. Future research directions focus on assessing the long-term impacts of circular actions, developing sustainable materials and technologies, analyzing the socio-economic effects of these practices, and the role of policy in promoting the circular economy. This study provides a comprehensive framework for accelerating the transition to a resilient, sustainable, and equitable built environment, highlighting the importance of collaboration among governments, industries, and local communities in achieving sustainable development goals.
+keywords:
+  - Circular Economy
+  - Building Renovation
+  - Sustainability
+  - Energy Efficiency
+  - Material Reuse
+format:
+  html:
+    toc: true
+    number-sections: false
+    fig-cap-location: bottom
+bibliography: CE-Review.bib
+csl: ../../../assets/csl/ieee.csl
+---
+
+
+
+---
+
+:::{.callout-note}
+The original article was written in Persian; the following is a translation of the original article.
+:::
+
+
+## 1. Introduction
+
+The traditional linear economy operates on a "take–make–dispose" model, in which raw materials are extracted, used to produce goods, and ultimately discarded as waste. This model is inherently unsustainable from both environmental and resource management perspectives, as it results in excessive resource extraction, depletion of natural reserves, habitat destruction, and biodiversity loss. Additionally, waste disposal through landfilling or incineration leads to environmental pollution—including soil and water contamination—and significantly accelerates climate change due to greenhouse gas emissions [@Cheshire2016; @Ghisellini2016; @Gillott2023; @Stahel2019; @Sharifi2018; @Ebadi2020].
+
+The historical trajectory of the linear economy—particularly since the Industrial Revolution—reveals exponential increases in raw material and energy consumption, giving rise to high-consumption urban forms that exert unprecedented stress on ecosystems [@EllenMacArthur2013; @Korhonen2018; @Williams2019]. In Iran, the challenges associated with the linear model are especially visible in the construction sector. For instance, studies show that construction waste generation in infrastructure projects has become a significant problem due to poor resource management and inefficient planning [@Asadi2021; @Abbasi2019]. The uncontrolled disposal of industrial and municipal waste into natural environments has also contaminated soil and water resources, producing widespread negative impacts on biodiversity and local community well-being [@Norouzi2019]. Moreover, greenhouse gas emissions from industrial activities and waste incineration are among the leading causes of climate change in the country. National reports highlight the significant contribution of the energy and industrial sectors to carbon dioxide and other pollutant emissions, reinforcing the need to revise current consumption and production patterns [@Jafari2018; @Razavi2022]. These challenges collectively underscore the urgency of adopting more sustainable economic models such as the circular economy.
+
+
+### 1.1 Inefficiencies of the Linear Economy
+
+As global population and consumption levels increase, the inefficiencies of the linear economic model have become more pronounced. The model's reliance on finite resources and its externalization of environmental costs create unsustainable pressure on natural systems and undermine the ecological balance necessary for human welfare and environmental health [@Ghisellini2016; @Stahel2016; @Asadi2021; @Sharifi2018; @Abbasi2019]. According to the Circularity Gap Report 2024, global circularity declined from 9.1% in 2018 to 7.2% in 2023, highlighting escalating challenges in resource management and environmental sustainability [@Razavi2022; @Norouzi2019]. The built environment significantly contributes to this crisis, accounting for 38% of energy-related CO₂ emissions, 50% of extracted raw materials, and one-third of global solid waste flows. These figures demonstrate an urgent need for systemic transformation [@CircularityGapReport2024; @Ghisellini2016; @IEA2019; @Stahel2016; @WorldGBC2019].
+
+### 1.2 Introducing the Circular Economy
+
+In response to these challenges, several innovative models have emerged, with the circular economy gaining prominence as a comprehensive and sustainable alternative. The circular economy aims to redefine growth by emphasizing systemic benefits for businesses, society, and the environment. This model promotes resource efficiency through a closed-loop system that continuously reuses, recycles, and recirculates materials, thereby reducing the need for new raw material extraction [@EllenMacArthur2013; @Hill2024; @Razavi2022; @Sharifi2018]. Successful examples of such implementation can be observed in leading countries like Finland and the Netherlands, where comprehensive circular strategies have been adopted to reduce resource consumption and enhance recycling rates [@Amsterdam2024; @Särkilahti2022].
+
+![Figure 1: Diagram of the Circular Economy @MerriBekCE2024"](Figure1.png){.zoomable}
+
+
+### 1.3 Innovations and Related Business Models
+
+Furthermore, the circular economy supports innovative business models such as “product-as-a-service” and sharing platforms that optimize product use and extend product lifecycles. This approach goes beyond traditional recycling, emphasizing durable design, lifecycle extension, and creative reuse of materials that would otherwise be discarded [@EllenMacArthur2013; @Finamore2024; @Hill2024].
+
+### 1.4 The Circular Economy in Iran
+
+The circular economy is also gaining attention in Iran as an innovative approach for reducing environmental impacts and improving resource efficiency. Domestic research indicates that adopting this model can substantially decrease waste generation and raw material consumption, creating opportunities for sustainable development [@Jafari2018; @Ebadi2020]. Innovations such as material-sharing platforms and the reuse of construction materials have been introduced as examples of successful circular strategies within the country [@Razavi2022; @Norouzi2019].
+
+![Figure 2: Comparison of Linear and Circular Economy Mechanisms @MarketVector2023](Figure2.png){.zoomable}
+
+Studies suggest that the circular economy has the potential to decouple economic growth from environmental degradation by prioritizing efficient resource use, extending product lifespans, and fostering a culture of sustainability [@Geissdoerfer2017; @Razavi2022; @Ebadi2020]. These practices are essential for achieving the Sustainable Development Goals, as they reduce raw material extraction, minimize waste, and promote long-term environmental viability [@Korhonen2018; @Schroder2019; @Winans2017].
+
+## 2. Methodology
+
+This study employs a qualitative research methodology based on a systematic review of scientific literature to investigate the role and impact of circular economy practices in existing buildings. The key methodological steps are as follows:
+
+### 2.1 Source Identification and Selection
+
+**Databases**: Sources were selected from academic databases such as Google Scholar, Web of Science, Scopus, JSTOR, and Elsevier.
+
+**Keywords**: Included terms such as circular economy, sustainable construction, material reuse, energy efficiency, water conservation, and circular renovation.
+
+**Time Frame**: Focused on studies published within the past decade.
+
+**Selection Criteria**: Studies related to the built environment and its environmental, economic, and social impacts were prioritized.
+
+**Inclusion and Exclusion Criteria**:
+
+- *Inclusion*: Empirical or theoretical studies on circular economy applications within the built environment.
+- *Exclusion*: Incomplete, outdated, or irrelevant sources lacking a clear connection to the built environment.
+
+### 2.2 Data Extraction and Analysis
+
+**Data Extraction**: Included the types of circular economy interventions (e.g., material reuse, energy efficiency), their benefits, challenges, and their environmental, economic, and social impacts.
+
+**Data Analysis**: Thematic categorization of findings was applied to identify trends, areas of consensus, and research gaps. Comparative analysis was employed to assess convergence or divergence across results.
+
+**Synthesis**: Developed an integrated overview of practices, barriers, and opportunities related to circular economy measures in existing buildings.
+
+### 2.3 Validation and Cross-Comparison
+
+Findings from diverse sources were compared to identify converging themes and unique insights. This methodology provides a comprehensive analysis of the existing knowledge landscape on circular economy practices in existing buildings and supports the identification of key challenges and opportunities for policymaking and sustainable built environment development.
+
+## 3. Literature Review
+
+### 3.1 Principles of the Circular Economy
+
+#### 3.1.1 Designing Out Waste and Pollution
+
+A core principle of the circular economy is the design of products and processes to minimize waste and pollution from the outset. This involves rethinking product design to optimize resource use across the lifecycle and ensuring that products are easy to repair, reuse, or recycle—thereby increasing their lifespan and reducing demand for virgin materials [@EllenMacArthur2013; @Razavi2022; @Sharifi2018].
+
+By integrating ecological design principles, companies can reduce material consumption, avoid hazardous substances, and enhance recyclability, which conserves resources and mitigates environmental impacts throughout the production, use, and end-of-life phases [@Bocken2017; @Stahel2019; @Abbasi2019].
+
+Transitioning to a circular economy could reduce greenhouse gas emissions by 39% and raw material consumption by 32% by 2030 [@WBCSD2024; @Sharifi2018]. Turner [@Turner2024] emphasizes that design flexibility can enhance building repairability, reduce construction-phase waste, and stimulate innovation [@Razavi2022]. These practices not only mitigate environmental challenges but also generate employment and foster economic growth [@WBCSD2024; @Jafari2018]. Circular measures such as reusing construction materials significantly decrease dependence on virgin resources and reduce landfilled waste [@González2021; @Ebadi2020].
+
+The World Green Building Council [@WorldGBC2019] has highlighted the need to address embodied carbon in building materials, which can account for up to 50% of a building's total carbon footprint over its lifecycle. Prioritizing the reuse of low-carbon materials can lead to substantial emissions reductions [@Abbasi2019; @Norouzi2019]. Cities like Amsterdam have demonstrated how rethinking urban design and using recyclable materials can meaningfully reduce carbon emissions [@Amsterdam2024].
+
+Effective waste management is also essential to the circular economy, as it improves quality of life and depends on government support for waste reduction technologies and public education [@Hondroyiannis2024; @Romano2022; @Razavi2022; @Zamani2021]. Extending landfill lifespan through efficient management practices such as segregation, recycling, and recovery can significantly reduce waste volumes and minimize methane emissions [@DAdamo2024; @Shakirov2024; @Simion2013; @Sharifi2018]. Leading countries like Finland and Denmark, particularly Copenhagen, have successfully optimized their waste sorting and recycling systems through integrated waste management strategies [@CalistoFriant2020; @Copenhagen2019].
+
+#### 3.1.2 Retaining Products and Materials in Use (3R Approach)
+
+The 3R strategy—Reduce, Reuse, Recycle—is a cornerstone of circular economy thinking aimed at minimizing resource extraction and waste generation [@Kirchherr2017; @Sharifi2018; @Abbasi2019].
+
+- **Reduce**:  
+  Minimizing material consumption and waste generation at the source by optimizing production processes and designing with fewer materials. In Iran, reducing the use of primary construction materials is increasingly important due to high procurement costs and environmental pressures [@Razavi2022]. Technologies like AI-assisted design have been introduced as advanced tools for material optimization across industries [@Hill2024].
+
+- **Reuse**:  
+  Extending product life by identifying new uses for materials that would otherwise be discarded. This includes refurbishment, component reuse, and design for easy disassembly and reassembly. In construction, component reuse conserves resources and fosters innovation in retrofitting [@Akinade2020; @Charef2018; @Chen2022; @Ghisellini2016; @Stahel2016; @Jafari2018; @Zamani2021]. In Iran, reusing materials such as bricks and recycled concrete is a key step in reducing construction waste [@Abbasi2019].
+
+- **Recycle**:  
+  Recycling waste into new products reduces the need for virgin resources and limits landfill waste. Effective recycling systems help retain valuable materials within the economy, lower environmental footprints, and curb emissions [@Ferronato2023; @Kirchherr2017; @Korhonen2018; @Ram2020; @Rossi2016; @Wang2021; @Zamani2021]. The European Investment Bank [@EuropeanInvestment2024] notes that circular solutions in cement, steel, and plastics could eliminate up to 9.3 billion tonnes of global emissions by 2050 [@Norouzi2019].
+
+In Iran, expanding sustainable recycling programs—especially in urban centers—can mitigate environmental harm and create opportunities for sustainable material management [@Jafari2018; @Ebadi2020]. Case studies from Copenhagen and Amsterdam show that community-based recycling systems not only increase recycling rates but also improve environmental awareness [@CalistoFriant2020; @Copenhagen2019]. These models are transferable to Iranian cities and could serve as best-practice benchmarks [@Razavi2022].
+
+#### 3.1.3 Regenerating Natural Systems
+
+Another key principle of the circular economy is to enhance rather than deplete natural systems. This includes the use of renewable energy sources, the promotion of regenerative agriculture, and the adoption of processes that repair and restore ecosystems. The goal is to create a restorative economic model that supports the health and resilience of ecosystems [@Geissdoerfer2017].
+
+For example, employing solar and wind energy in production and distribution can reduce emissions and prevent further depletion of natural resources [@Hill2024; @Norouzi2019]. Circular economy models also support the restoration of degraded habitats through initiatives such as reforestation, wetland recovery, and land remediation. These actions not only restore ecological balance and biodiversity but also provide vital ecosystem services such as water purification, flood regulation, and carbon sequestration [@Fletcher2016; @Ghisellini2016]. In Amsterdam, reforestation in industrially degraded zones has contributed both to biodiversity recovery and climate mitigation [@Amsterdam2024].
+
+Circular renovation practices further promote the use of eco-friendly materials and processes, reducing environmental impacts and supporting long-term ecosystem sustainability [@Korhonen2018; @Sharifi2018; @Ebadi2020]. In Iran, examples such as the Anzali Wetland restoration and afforestation of arid regions have shown positive environmental outcomes and mitigated the impact of industrial degradation [@Razavi2022]. Local initiatives that promote regenerative agriculture, including organic fertilization and soil preservation, have enhanced biodiversity and reduced emissions [@Jafari2018; @Norouzi2019].
+
+Recent studies also demonstrate that circular models in natural resource management, especially water, can reduce environmental harm. For instance, water reclamation in agriculture and industry helps conserve freshwater resources and protect aquatic habitats [@WBCSD2024; @Abbasi2019]. These actions provide a sustainable framework for ecosystem management in vulnerable areas and play a critical role in addressing climate change challenges [@Fletcher2016; @Sharifi2018].
+
+### 3.2 Key Benefits of Circular Economy Practices in Construction and Building Management
+
+#### 3.2.1 Environmental Benefits
+
+Circular economy practices help reduce the environmental impact of the construction sector. These measures include material reuse and recycling, reduction in raw material consumption, and lowering greenhouse gas emissions. For instance:
+
+- Using recycled steel can reduce steel production energy consumption by up to 60% [@CircularityGapReport2024; @Pomponi2017a].
+- Replacing cement with recycled materials such as fly ash can cut embodied carbon emissions by up to 40% [@Pomponi2017b].
+- Waste reduction strategies can lower construction waste by up to 90% [@Adams2017].
+
+#### 3.2.2 Economic Benefits
+
+Implementing circular economy principles results in cost savings, increased property value, and improved economic efficiency. Examples include:
+
+- Energy-efficient retrofitting technologies can reduce energy consumption by up to 30%, lowering operational expenses [@Aste2017].
+- Projects like The Edge building in Amsterdam have achieved up to 70% energy cost savings [@Hossain2020].
+- Applying circular economy principles can reduce material and operational costs by up to 32% [@EllenMacArthur2019].
+
+#### 3.2.3 Social Benefits
+
+Circular practices enhance social well-being, health, and equity:
+
+- The use of non-toxic materials and improvements in indoor environmental quality enhance resident health and productivity [@AlHorr2016].
+- Participatory and educational programs promote responsibility and social cohesion [@Williams2019].
+- Job creation in green industries supports social equity and local economic development [@DelosRios2017].
+
+Circular economy actions—through environmental relief, economic savings, and community engagement—facilitate the transition to a more sustainable and equitable built environment. In Iran, these measures have the potential to reduce pollution and generate sustainable employment opportunities.
+
+![Figure 3: Relationship Between Circular Economy Components and Sustainable Development @Akter2023](Figure3.png){.zoomable}
+
+## 4. Challenges and Solutions for Implementing Circular Practices in Existing Buildings
+
+Implementation of circular strategies in existing buildings faces several barriers. This section identifies common obstacles and practical solutions to overcome them.
+
+### 4.1 Common Barriers and Practical Solutions
+
+#### 4.1.1 High Initial Costs
+
+High upfront investment for retrofitting is a major barrier to the adoption of circular economy practices. Despite their potential to reduce long-term costs and increase building value, initial expenses deter many stakeholders [@Aste2017].
+
+**Solutions:**
+
+- **Financial Incentives and Support**:  
+  Governments and organizations can offer subsidies, tax exemptions, and low-interest loans to reduce financial burdens and stimulate green renovation investments [@Rosenow2016; @Norouzi2019].  
+  In Iran, initiatives like the “Energy Efficiency in Buildings” program have facilitated investment through energy subsidies and tax breaks [@Ebadi2020].  
+  International programs offering low-interest loans can serve as models for reducing retrofit costs in Iran [@SEAI2020; @Zamani2021].
+
+- **Cost-Benefit Analysis and Long-Term Savings**:  
+  Building owners should consider the long-term financial benefits of circular retrofits. Studies show that energy savings and increased property value can offset initial costs [@Pomponi2017b; @Sharifi2018].  
+  [@Gebhardt2024] highlight that circular practices enhance economic resilience and attract future investments. Economic modeling of return on investment can further incentivize adoption [@Turner2024].
+
+- **Use of Recycled and Local Materials**:  
+  Utilizing recycled and locally sourced materials during renovation can reduce costs while supporting circular principles. In Iran, pilot projects using recycled concrete and bricks have shown significant cost savings [@Sharifi2018; @Norouzi2019].
+
+#### 4.1.2 Lack of Awareness and Knowledge
+
+A critical challenge is the insufficient understanding of circular economy principles among building owners, managers, and residents. This knowledge gap can result in resistance or hesitation to invest in sustainable measures [@Suarez2021; @Sharifi2018; @Ebadi2020].
+
+**Solutions:**
+
+- **Education and Awareness-Raising**  
+  Educational programs, workshops, and online courses can help stakeholders grasp the benefits and practicalities of circular strategies [@Janda2021; @Zamani2021].
+
+- **Information Campaigns**  
+  Media platforms—social media, digital tools, local outreach—can highlight circular benefits and provide implementation guidance [@vanLidthdeJeude2020; @Norouzi2019].
+
+- **Success Stories and Case Studies**  
+  Showcasing successful retrofit projects, like The Edge in Amsterdam, can inspire stakeholders by demonstrating real-world feasibility and benefits [@Turner2024; @Abbasi2019].
+
+- **Professional Development**  
+  Certification programs for building professionals in circular principles can elevate knowledge and ensure effective implementation [@Gebhardt2024; @Jafari2018].
+
+- **Training in Green Technologies**  
+  Programs on smart building systems and material recycling can empower the workforce with relevant skills [@Turner2024; @Razavi2022].
+
+- **Academic-Industry Collaboration**  
+  Partnerships with universities and research institutions can support the design of training programs and educational materials [@Janda2021; @Sharifi2018].
+
+- **Networking and Knowledge Exchange**  
+  Creating platforms for collaboration among owners, architects, and contractors encourages best practice sharing [@Suarez2021; @Norouzi2019].
+
+- **Practical Resources and Guidelines**  
+  Developing step-by-step guides in local languages can make circular principles more accessible and reduce technical complexity [@vanLidthdeJeude2020; @Ebadi2020].
+
+#### 4.1.3 Technical Limitations
+
+Existing buildings often face structural and technical limitations that complicate retrofitting. Older buildings may not be compatible with new technologies or materials, hindering circular implementation [@Mohammadi2021; @Norouzi2019].
+
+**Solutions:**
+
+- **Technical Assistance and Innovation**
+
+- **Innovative Building Materials**  
+  Sustainable materials that are easy to reuse or recycle (e.g., recycled concrete or steel) can ease integration into older structures [@Allwood2020; @Ebadi2020].
+
+- **Advanced Construction Techniques**  
+  Modular construction and prefabricated components enhance circular compatibility in buildings needing structural modifications [@Cabeza2018; @Stahel2019; @Sharifi2018].
+
+- **Use of Local and Innovative Materials**  
+  Indigenous materials like stabilized clay and vernacular technologies can reduce technical barriers [@Jafari2018; @Norouzi2019].
+
+- **Digital Tools**  
+  Building Information Modeling (BIM) helps identify retrofit opportunities and optimize performance. BIM is also useful for managing end-of-life scenarios and material recovery [@Garcia2020; @Charef2018; @Razavi2022].  
+  Integrating BIM with smart energy systems can offer energy optimization solutions and support circular goals [@Eberhardt2022; @Sharifi2018].
+
+- **Technical Research Support**  
+  Collaboration among academia, tech firms, and the construction sector can yield actionable technical solutions [@Mohammadi2021; @Norouzi2019].
+
+- **Innovation Labs**  
+  Sector-specific innovation labs allow real-world testing of technologies and materials, reducing risk and scaling up best practices [@Eberhardt2022; @Zamani2021].
+
+#### 4.1.4 Legal Barriers
+
+Building codes and regulatory frameworks can pose significant challenges to the implementation of circular measures. Outdated regulations may not align with new technologies or circular economy practices, creating legal and bureaucratic obstacles for stakeholders [@Teubler2018]. [@Ritzen2017] emphasize that misalignment between existing regulations and circular principles is one of the key barriers to implementation.
+
+**Solutions:**
+
+- **Policy Support and Regulatory Reform**
+
+- **Updating Building Regulations**  
+  Governments and regulatory bodies can promote circular measures by revising building regulations to align with new technologies and materials. Mandating sustainability standards such as BREEAM or LEED can help mainstream circular practices [@Haapio2008; @Abbasi2019].  
+  The European Union’s Circular Economy Action Plan highlights the need for flexible legislation to accommodate emerging circular models and technologies [@European2019].  
+  Developing national regulations for recycled material usage in construction, mandating on-site waste separation, and setting national standards for sustainable retrofitting can ease legal hurdles [@Jafari2018; @Norouzi2019].
+
+- **Public-Private Partnerships**  
+  Collaboration between public and private sectors can help overcome legal challenges by sharing knowledge, accelerating policy reform, and mobilizing resources for circular economy projects [@Ghisellini2016; @Zamani2021].  
+  Leading cities such as Amsterdam and Copenhagen have implemented successful circular projects through public-private cooperation, serving as models for replication in Iran [@Amsterdam2024; @CalistoFriant2020].
+
+- **Legal Incentives**  
+  Governments can offer tax exemptions to companies that utilize recycled materials or undertake sustainable renovations, incentivizing circular adoption [@Rosenow2016; @Sharifi2018].  
+  Simplifying permitting processes for circular projects—such as reducing requirements for using recycled materials—can lower regulatory burdens and accelerate project timelines [@Teubler2018].
+
+- **Policy Labs**  
+  Establishing policy labs where new circular-related regulations are piloted and evaluated can help identify and resolve legal barriers. This approach has proven effective in countries like Germany and Denmark and could be adapted for Iran [@European2019; @Zamani2021].
+
+#### 4.1.5 Market and Supply Chain Issues
+
+Limited access and high costs of sustainable materials and technologies can hinder the adoption of circular measures. Furthermore, low market demand for recycled materials or circular products can discourage production, resulting in higher prices and limited availability [@Sartor2021; @Sharifi2018].
+
+**Solutions:**
+
+- **Market Development and Supply Chain Strengthening**
+
+  - **Green Public Procurement**:  
+    Governments can increase demand for sustainable materials through procurement policies. Mandating the use of recycled materials in public construction projects can stimulate market demand and make production more cost-effective [@Sartor2021].
+
+  - **Financial Incentives**:  
+    Providing subsidies or tax relief for manufacturers and builders using recycled materials can make circular products more financially viable [@EuropeanCommission2020; @Ebadi2020].
+
+  - **Infrastructure Development**:  
+    Supporting regional recycling facilities and distribution networks for sustainable materials can improve access and reduce costs [@Pomponi2017b; @Jafari2018].
+
+- **Industrial Collaboration**  
+  Creating networks that link recyclers, producers, and builders can facilitate resource sharing and reduce costs. Such collaborations ensure the availability of high-quality recycled materials [@Rahla2021; @Norouzi2019].  
+  For instance, in cities like Rotterdam, partnerships between construction and waste management sectors have led to the development of sustainable materials and efficient supply chains [@Amsterdam2024; @Zamani2021].
+
+- **Education and Awareness-Raising**  
+  Increasing consumer awareness of circular product benefits can boost demand. Awareness campaigns help shift public attitudes towards recycled and sustainable materials [@Sartor2021; @Sharifi2018].  
+  Hosting exhibitions showcasing circular products and recycled materials fosters connections between producers and consumers and strengthens the supply chain [@Pomponi2017b; @Jafari2018].
+
+- **Quality Standards**  
+  Establishing quality standards for recycled materials enhances trust among developers and consumers, promoting widespread adoption. These standards address concerns about performance and reliability [@EuropeanCommission2020].
+
+## 5. Strategies for Implementing Circular Economy Measures in Existing Buildings
+
+### 5.1 Retrofitting for Energy Efficiency
+
+- **Improving Insulation**:  
+  Enhancing wall, roof, and floor insulation helps maintain interior temperatures, reducing heating and cooling demand. Advanced materials like aerogels and vacuum insulation panels are recommended for deep retrofit solutions [@Baetens2011].
+
+- **Window Replacement**:  
+  Installing high-performance windows—such as double- or triple-glazed units with low-emissivity coatings—significantly reduces thermal transfer and energy consumption [@Cuce2016; @Norouzi2019].
+
+- **Upgrading HVAC Systems**:  
+  Utilizing energy-efficient heating, ventilation, and air conditioning systems enhances thermal comfort and reduces energy usage [@Delzendeh2017; @Zamani2021].
+
+### 5.2 Financial Incentives and Regulatory Frameworks
+
+- **Subsidies and Grants**:  
+  National programs like Iran’s “National Building Energy Efficiency Plan” provide substantial funding for retrofitting projects aimed at enhancing energy performance [@Ebadi2020].
+
+- **Tax Incentives**:  
+  Energy-efficiency tax deductions—similar to international programs like the Energy Efficient Home Credit—can offer financial motivation for retrofits [@Razavi2022].
+
+- **Regulatory Support**:  
+  Amending national energy efficiency regulations and introducing new guidelines—comparable to EU directives—can standardize sustainable retrofitting [@EuropeanCommission2018; @Sharifi2018].
+
+### 5.3 Material Reuse and Recycling
+
+- **Reusing Materials**:  
+  Reusing building components such as bricks, concrete, and steel reduces renovation costs and limits demand for raw materials [@Pomponi2017a; @Ebadi2020].
+
+- **Material Recycling**:  
+  Recycling demolished construction materials to produce new products—such as recycled concrete—minimizes environmental impact and landfill usage [@Ghisellini2016; @Norouzi2019].
+
+### 5.4 Selective Demolition and Adaptive Reuse
+
+- **Selective Demolition**:  
+  Systematic disassembly of buildings allows recovery of valuable materials, reducing waste. This approach is applied in sustainable projects across Denmark and the Netherlands [@Crowther2017; @Sharifi2018].
+
+- **Adaptive Reuse**:  
+  Repurposing existing buildings for new functions without full demolition preserves embodied energy and reduces demand for new materials. This strategy has been successful in both European and Iranian retrofit projects [@Langston2007; @Jafari2018].
+
+### 5.5 Incorporating Recycled Materials in Renovation
+
+- **Recycled Concrete**:  
+  Using recycled concrete for foundations, roads, and building blocks reduces demand for virgin materials and limits construction waste [@Tam2012; @Norouzi2019].
+
+- **Reclaimed Wood**:  
+  Salvaged timber from demolished buildings can be reused for structural elements, interior finishes, or furniture, reducing waste and supporting sustainable forestry [@Falk2017; @Zamani2021].
+
+- **Material Traceability with BIM**:  
+  [@Charef2018] emphasize that BIM can store detailed information about materials used in buildings, facilitating recovery and reuse. This enhances circular strategies [@Jafari2018; @Abbasi2019].
+
+### 5.6 Operational Efficiency and Maintenance
+
+- **Preventive Maintenance**:  
+  Effective maintenance of building systems extends service life, reduces life-cycle costs, and optimizes performance [@Shohet2017; @Zamani2021].
+
+- **Energy Management Systems**:  
+  Real-time energy monitoring systems increase efficiency in both residential and commercial buildings [@Menezes2012; @Ebadi2020].
+
+- **Smart Building Technologies**:  
+  IoT and AI-based systems monitor energy use and indoor air quality, while automation adjusts lighting and HVAC systems based on environmental conditions, reducing energy use and costs [@Awad2021; @Hong2016; @Zamani2021].
+
+- **Building Automation Systems**:  
+  Automated systems manage resources—lighting, HVAC, and security—based on occupancy and ambient conditions. Their implementation enhances energy efficiency, operational cost reduction, comfort, and safety [@Dounis2009; @Sharifi2018].
+
+### 5.7 Water Conservation
+
+- **Low-Flow Fixtures**:  
+  Water-efficient faucets, showerheads, and toilets reduce urban water consumption and operational costs without sacrificing performance. These measures have shown positive outcomes in European green building projects [@Gleick2013; @Ebadi2020].
+
+- **Rainwater Harvesting Systems**:  
+  Collecting and storing rainwater for non-potable uses such as landscape irrigation and toilet flushing reduces reliance on municipal supplies and cuts water costs [@Vialle2011; @Zamani2021].
+
+- **Greywater Recycling**:  
+  Reusing water from sinks and showers for other applications lowers potable water consumption and wastewater generation [@Gross2017; @Sharifi2018].
+
+### 5.8 Stakeholder Engagement and Education
+
+- Sharing cost-saving data and property value enhancements raises awareness of circular benefits and encourages sustainable investment [@Keane2017; @Mezher2019].
+
+- Educational efforts related to waste reduction and efficient resource use foster responsible occupant behaviors that are essential to energy savings and waste minimization [@Ramos2020; @Vahdat2021].
+
+These strategies are not only environmentally beneficial and cost-effective, but also enhance quality of life and social well-being. Leveraging successful international practices and coordinated efforts across government, private, and local sectors is essential to advancing sustainable construction.
+
+
+| Project                               | Actions                                                        | Outcomes                                                                 |
+|---------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------------------|
+| Lourès Office Building, Portugal      | Insulation upgrade, solar panels, efficient lighting           | 37% energy reduction [@Marques2019]                                      |
+| Office Building, Tehran               | Insulation, window replacement, LED installation               | 35% energy reduction [@Abbasi2019]                                       |
+| Green Tower, Mashhad                  | Efficient HVAC systems, solar panels                           | 25% energy cost reduction, increased property value [@Norouzi2019]       |
+| SOMPO Building, Tokyo                 | LED lighting, efficient chillers                               | 20% energy reduction [@Shinoda2021]                                      |
+| Circular House, Denmark               | Use of recycled/upgraded materials: brick, wood, steel         | Proved feasibility of circular construction [@Klinge2020]                |
+| Alpnach, Switzerland                  | Renovation with recycled concrete and wood                     | Reduced environmental impact and met high sustainability standards [@Hossain2019] |
+| Crystal Building, London              | Advanced automation and smart tech for energy management       | Became energy-neutral with enhanced operational performance [@Shinoda2024] |
+| Kogakuin University Smart Building    | Advanced EMS and IoT for energy monitoring and control         | 30% energy reduction, improved comfort and productivity [@Kogakuin2019]  |
+| Sustainable City, Dubai               | Greywater recycling, rainwater harvesting, water-efficient design | 50% water reduction and promotion of sustainable living [@Ayyad2020]    |
+| CopenHill, Copenhagen                 | Green roofs, rainwater systems, waste-to-energy tech          | Significant water savings and enhanced urban sustainability [@Big.2019]   |
+| One Central Park, Sydney              | Community engagement via workshops and sustainability events  | Increased environmental awareness and reduced impacts [@Cox2018]         |
+| EDGE Program, Green Building Council  | Stakeholder training and certification for green buildings     | Promoted long-term sustainability and adoption of best practices [@EDGE2020] |
+: Table 1: Examples of Circular Economy Implementation and Outcomes {.striped}
+
+
+![Figure 4: Qualitative Case Studies on Energy Reduction Following Circular Interventions](Figure4.dark.png){.zoomable}
+
+## 6. Conclusion
+
+This study underscores the importance of implementing circular economy measures in existing buildings, demonstrating that such practices can help transform the construction sector toward a more sustainable future. The principles of the circular economy—including material reuse, energy efficiency, waste reduction, and water conservation—offer substantial environmental, economic, and social benefits.
+
+### 6.1 Environmental Benefits
+
+- **Carbon Footprint Reduction**:  
+  Actions such as using recycled materials, optimizing building operations, and deploying energy-efficient systems contribute to lowering carbon emissions and overall energy demand [@CircularityGapReport2024; @Sharifi2018].
+
+- **Waste Reduction**:  
+  Strategies like selective demolition and material reuse reduce construction waste and limit landfill dependency [@Crowther2017; @Norouzi2019].
+
+- **Resource Conservation**:  
+  Promoting material reuse and recycling reduces the extraction of raw materials, helping to prevent habitat destruction and biodiversity loss [@Langston2007; @Ebadi2020].
+
+### 6.2 Economic Benefits
+
+- **Energy Cost Savings**:  
+  Energy-efficient technologies such as LED lighting and optimized HVAC systems lower operational costs [@Pomponi2017a].
+
+- **Reduced Material and Waste Costs**:  
+  Reuse and recycling decrease the expenses associated with raw material procurement and waste disposal [@Gleick2013; @Zamani2021].
+
+- **Increased Property Value**:  
+  Buildings integrating circular practices tend to command higher market values and attract greater rental income [@DeBoeck2015; @Sharifi2018].
+
+### 6.3 Social Benefits
+
+- **Health and Well-being Improvement**:  
+  Circular practices enhance indoor environmental quality through better ventilation and non-toxic materials, improving occupant health and comfort [@AlHorr2016; @Abbasi2019].
+
+- **Community Engagement**:  
+  Educational programs and local partnerships foster a sense of ownership and responsibility among residents, strengthening social cohesion [@Ramos2020; @Norouzi2019].
+
+- **Social Equity Promotion**:  
+  Job creation in recycling and renovation sectors supports local economic development and enhances social inclusion [@Murray2017; @Zamani2021].
+
+### 6.4 Overcoming Challenges
+
+Despite challenges such as high initial costs, technical limitations, lack of awareness, regulatory barriers, and market constraints, solutions such as financial incentives, policy reforms, technological innovation, and stakeholder education can help address these obstacles. These efforts improve accessibility and public acceptance of circular practices [@CircularityGapReport2024; @Ebadi2020].
+
+### 6.5 Future Pathways
+
+The study emphasizes the need for collaboration among policymakers, building owners, developers, and civil society to accelerate the transition toward a circular economy. As progress continues, the built environment can move closer to achieving the Sustainable Development Goals, addressing current demands while preserving resources and ecosystems for future generations. Achieving resource efficiency requires a holistic approach encompassing the design, construction, and operation phases of buildings.
