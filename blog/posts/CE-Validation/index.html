@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Farokh Panahirad">
+<meta name="keywords" content="Circular Economy, Building Retrofit, BIM, IoT, Material Reuse">
+<meta name="description" content="Empirical validation of a CE retrofit framework via eight real-world case studies using BIM, IoT, AI, and Digital Twins.">
+
+<title>Validating a Digital Circular Economy Framework through Multi-Case Retrofit Analysis – Farokh Panahirad</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-6064eead220a12dfabbe5ed688011e95.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-f8efa3d1fb184b9397def8e1c1563c2c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    mediumZoom('img.zoomable', {
+      margin: 24,
+      background: '#000',
+    })
+  })
+</script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Farokh Panahirad</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../blog/index.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">1. Introduction</a></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">2. Methodology</a>
+  <ul class="collapse">
+  <li><a href="#research-design" id="toc-research-design" class="nav-link" data-scroll-target="#research-design">2.1 Research Design</a></li>
+  <li><a href="#case-selection" id="toc-case-selection" class="nav-link" data-scroll-target="#case-selection">2.2 Case Selection</a></li>
+  <li><a href="#data-collection-and-analysis" id="toc-data-collection-and-analysis" class="nav-link" data-scroll-target="#data-collection-and-analysis">2.3 Data Collection and Analysis</a></li>
+  </ul></li>
+  <li><a href="#case-studies-and-comparative-analysis" id="toc-case-studies-and-comparative-analysis" class="nav-link" data-scroll-target="#case-studies-and-comparative-analysis">3. Case Studies and Comparative Analysis</a>
+  <ul class="collapse">
+  <li><a href="#material-reuse-and-waste-reduction" id="toc-material-reuse-and-waste-reduction" class="nav-link" data-scroll-target="#material-reuse-and-waste-reduction">3.1 Material Reuse and Waste Reduction</a></li>
+  <li><a href="#energy-savings" id="toc-energy-savings" class="nav-link" data-scroll-target="#energy-savings">3.2 Energy Savings</a></li>
+  <li><a href="#stakeholder-engagement" id="toc-stakeholder-engagement" class="nav-link" data-scroll-target="#stakeholder-engagement">3.3 Stakeholder Engagement</a></li>
+  <li><a href="#data-integration-challenges" id="toc-data-integration-challenges" class="nav-link" data-scroll-target="#data-integration-challenges">3.4 Data Integration Challenges</a></li>
+  </ul></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">4. Discussion</a>
+  <ul class="collapse">
+  <li><a href="#validation-of-the-digital-framework" id="toc-validation-of-the-digital-framework" class="nav-link" data-scroll-target="#validation-of-the-digital-framework">4.1 Validation of the Digital Framework</a></li>
+  <li><a href="#barriers-and-enablers" id="toc-barriers-and-enablers" class="nav-link" data-scroll-target="#barriers-and-enablers">4.2 Barriers and Enablers</a></li>
+  <li><a href="#implications-for-practice-and-policy" id="toc-implications-for-practice-and-policy" class="nav-link" data-scroll-target="#implications-for-practice-and-policy">4.3 Implications for Practice and Policy</a></li>
+  <li><a href="#future-research-directions" id="toc-future-research-directions" class="nav-link" data-scroll-target="#future-research-directions">4.4 Future Research Directions</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">5. Conclusion</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Validating a Digital Circular Economy Framework through Multi-Case Retrofit Analysis</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Circular Economy</div>
+    <div class="quarto-category">Building Retrofit</div>
+    <div class="quarto-category">BIM</div>
+    <div class="quarto-category">IoT</div>
+    <div class="quarto-category">Material Reuse</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Empirical validation of a CE retrofit framework via eight real-world case studies using BIM, IoT, AI, and Digital Twins.
+  </div>
+</div>
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Farokh Panahirad, PhD Student <a href="mailto:f.panahirad@aui.ac.ir" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0009-0008-5691-2240" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Art University of Isfahan
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <p>Integrating Circular Economy principles into existing building retrofits offers substantial opportunities to reduce resource waste and improve operational efficiencies. This paper presents a multi‐case analysis of eight retrofit projects—spanning offices, residential complexes, and historical structures—to validate a digital integration framework that leverages Building Information Modeling, the Internet of Things, Artificial Intelligence, and Digital Twins. Our analysis demonstrates that retrofits employing this framework can achieve material reuse rates between 40% and 80% and energy savings from 15% to 70%. In addition to quantifying performance improvements, the study examines challenges such as stakeholder resistance, data fragmentation, and regulatory constraints, and discusses strategies for effective framework implementation. The findings offer a robust roadmap for scaling digital‐driven CE retrofits in the built environment.</p>
+  </div>
+</div>
+
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>Circular Economy, Building Retrofit, BIM, IoT, Material Reuse</p>
+  </div>
+</div>
+
+</header>
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">1. Introduction</h2>
+<p>The built environment is one of the largest consumers of energy globally and is responsible for a significant share of greenhouse gas emissions <span class="citation" data-cites="IEA2019 UNEP2019"><a href="#ref-IEA2019" role="doc-biblioref">[1]</a>, <a href="#ref-UNEP2019" role="doc-biblioref">[2]</a></span>. Traditionally, construction has followed a linear model—extract, build, use, and dispose—resulting in high levels of waste and resource depletion. In response to these challenges, the Circular Economy (CE) paradigm has gained traction as an alternative model that emphasizes waste minimization, resource recovery, and the extension of material lifespans <span class="citation" data-cites="EllenMacArthur2013 Kirchherr2017 Ghisellini2016"><a href="#ref-EllenMacArthur2013" role="doc-biblioref">[3]</a>, <a href="#ref-Kirchherr2017" role="doc-biblioref">[4]</a>, <a href="#ref-Ghisellini2016" role="doc-biblioref">[5]</a></span>. CE approaches aim to close the loop by designing processes that enable the continuous reuse of resources, thereby reducing environmental impact and promoting sustainability.</p>
+<p>While new construction projects have increasingly incorporated CE strategies, existing buildings—representing the majority of the built stock—present unique challenges for retrofitting. These structures are characterized by heterogeneous construction methods, outdated designs, and various regulatory and technical obstacles <span class="citation" data-cites="Leising2018 Pomponi2017"><a href="#ref-Leising2018" role="doc-biblioref">[6]</a>, <a href="#ref-Pomponi2017" role="doc-biblioref">[7]</a></span>. Retrofitting such buildings requires careful consideration of material deterioration, heritage preservation, and occupant disruption. Consequently, effective CE retrofitting necessitates not only innovative design but also advanced technological solutions.</p>
+<p>Digital technologies have emerged as critical enablers in addressing these retrofit challenges. Tools such as Building Information Modeling (BIM), the Internet of Things (IoT), Artificial Intelligence (AI), and Digital Twins facilitate detailed data collection, real-time monitoring, and predictive analysis, thereby improving decision-making and operational performance <span class="citation" data-cites="Volk2014 Won2017 Mohammadi2021"><a href="#ref-Volk2014" role="doc-biblioref">[8]</a>, <a href="#ref-Won2017" role="doc-biblioref">[9]</a>, <a href="#ref-Mohammadi2021" role="doc-biblioref">[10]</a></span>. These digital solutions enable precise documentation of as-built conditions, simulation of retrofit scenarios, and continuous performance optimization after project completion.</p>
+<p>Despite the theoretical promise of these digital technologies, empirical validation of integrated frameworks remains limited. This study addresses that gap by evaluating a comprehensive digital integration framework for CE retrofits through a multi‐case analysis. The framework is structured into four phases—Assessment, Planning, Execution, and Monitoring &amp; Optimization—and is applied to eight diverse retrofit projects. The objective is to assess the framework’s performance, quantify its benefits in terms of material reuse and energy savings, and identify persistent challenges that may hinder broader adoption.</p>
+</section>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">2. Methodology</h2>
+<section id="research-design" class="level3">
+<h3 class="anchored" data-anchor-id="research-design">2.1 Research Design</h3>
+<p>A multi‐case study approach was employed to evaluate the digital framework in a range of real-world retrofit projects. This design allowed for the collection of both qualitative and quantitative performance metrics across varied building typologies, thereby providing a comprehensive evaluation of the framework’s effectiveness <span class="citation" data-cites="Yin2018 Stake1995"><a href="#ref-Yin2018" role="doc-biblioref">[11]</a>, <a href="#ref-Stake1995" role="doc-biblioref">[12]</a></span>. By comparing outcomes across multiple cases, the study identified recurring themes and validated the robustness of the framework under different conditions.</p>
+</section>
+<section id="case-selection" class="level3">
+<h3 class="anchored" data-anchor-id="case-selection">2.2 Case Selection</h3>
+<p>Eight retrofit projects were selected based on the following criteria:</p>
+<ul>
+<li><strong>Diversity of Building Types</strong>: The sample includes commercial offices, residential buildings, and historical structures. This diversity ensures that the framework is tested under various scenarios and that the findings are broadly applicable <span class="citation" data-cites="Leising2018 vandenBerg2019"><a href="#ref-Leising2018" role="doc-biblioref">[6]</a>, <a href="#ref-vandenBerg2019" role="doc-biblioref">[13]</a></span>.<br>
+</li>
+<li><strong>Digital Tool Implementation</strong>: Each project integrated at least two digital solutions (e.g., a combination of BIM with IoT or Digital Twins) to support CE outcomes. This criterion guarantees that the framework is applied in a sufficiently digitalized context.<br>
+</li>
+<li><strong>Data Availability</strong>: Selected projects provided robust quantitative data (e.g., energy consumption, material reuse rates) as well as qualitative insights (e.g., stakeholder satisfaction, regulatory challenges). This comprehensive data set allowed for detailed comparative analysis.</li>
+</ul>
+</section>
+<section id="data-collection-and-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="data-collection-and-analysis">2.3 Data Collection and Analysis</h3>
+<p>Data collection was carried out using a triangulation of methods:</p>
+<ul>
+<li><strong>Document Review</strong>: Academic publications, industry reports, and official project documentation were analyzed to extract relevant performance data and qualitative insights.<br>
+</li>
+<li><strong>Performance Metrics</strong>: Quantitative data were gathered on key indicators such as energy savings, material reuse, and waste reduction.<br>
+</li>
+<li><strong>Comparative Synthesis</strong>: Data were aggregated into summary tables and charts to identify cross-case trends and validate the effectiveness of each phase of the digital framework <span class="citation" data-cites="Yin2018"><a href="#ref-Yin2018" role="doc-biblioref">[11]</a></span>.</li>
+</ul>
+<p>The use of multiple data sources enhanced the validity of the findings and provided a robust basis for analysis.</p>
+</section>
+</section>
+<section id="case-studies-and-comparative-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="case-studies-and-comparative-analysis">3. Case Studies and Comparative Analysis</h2>
+<p>This section provides a detailed overview of the eight retrofit projects analyzed in this study. Table 1 below summarizes the key characteristics, including building type, digital technologies employed, CE outcomes, and encountered challenges.</p>
+<table class="table-striped caption-top table">
+<caption>Table 1: Comparative Analysis of Retrofit Case Studies</caption>
+<colgroup>
+<col style="width: 14%">
+<col style="width: 19%">
+<col style="width: 22%">
+<col style="width: 19%">
+<col style="width: 14%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Case Study</th>
+<th>Building Type</th>
+<th>Technologies Used</th>
+<th>Key Outcomes</th>
+<th>Challenges</th>
+<th>Metrics</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>The Edge Building, Amsterdam <span class="citation" data-cites="Volk2014"><a href="#ref-Volk2014" role="doc-biblioref">[8]</a></span></td>
+<td>Commercial Office</td>
+<td>BIM, IoT, Digital Twins</td>
+<td>70% energy savings, enhanced occupancy comfort</td>
+<td>Minimal significant challenges</td>
+<td>Energy Savings: 70%</td>
+</tr>
+<tr class="even">
+<td>Circular House Project, Denmark <span class="citation" data-cites="Leising2018"><a href="#ref-Leising2018" role="doc-biblioref">[6]</a></span></td>
+<td>Residential Apartments</td>
+<td>BIM</td>
+<td>60% material reuse, 25% carbon reduction</td>
+<td>Stakeholder engagement</td>
+<td>Material Reuse: 60%, Carbon Reduction: 25%</td>
+</tr>
+<tr class="odd">
+<td>Adaptive Reuse in The Netherlands <span class="citation" data-cites="vandenBerg2019"><a href="#ref-vandenBerg2019" role="doc-biblioref">[13]</a></span></td>
+<td>Historical Buildings</td>
+<td>BIM, IoT</td>
+<td>80% heritage material conservation</td>
+<td>Regulatory constraints</td>
+<td>Material Conservation: 80%, Energy Improvement: 35%</td>
+</tr>
+<tr class="even">
+<td>Large Commercial Complex, Europe <span class="citation" data-cites="Akbarieh2020"><a href="#ref-Akbarieh2020" role="doc-biblioref">[14]</a></span></td>
+<td>Commercial Complex</td>
+<td>BIM, Digital Twins, IoT</td>
+<td>45% waste reduction, 20% energy savings</td>
+<td>Data integration challenges</td>
+<td>Waste Reduction: 45%, Energy Savings: 20%</td>
+</tr>
+<tr class="odd">
+<td>Urban Historical Area, Europe <span class="citation" data-cites="Miller2019"><a href="#ref-Miller2019" role="doc-biblioref">[15]</a></span></td>
+<td>Historical Residential</td>
+<td>BIM, Digital Twins</td>
+<td>75% material preservation, 15% energy savings</td>
+<td>Regulatory restrictions</td>
+<td>Material Preservation: 75%, Energy Savings: 15%</td>
+</tr>
+<tr class="even">
+<td>Mixed-Use AECO Buildings <span class="citation" data-cites="Volk2014"><a href="#ref-Volk2014" role="doc-biblioref">[8]</a></span></td>
+<td>Mixed-Use (AECO Sector)</td>
+<td>BIM, Digital Twins</td>
+<td>35% resource waste reduction</td>
+<td>Operational scheduling</td>
+<td>Resource Waste Reduction: 35%</td>
+</tr>
+<tr class="odd">
+<td>Historic Public Building, Sweden <span class="citation" data-cites="Mohammadi2021"><a href="#ref-Mohammadi2021" role="doc-biblioref">[10]</a></span></td>
+<td>Public Historic Building</td>
+<td>Digital Twins, AI</td>
+<td>20% energy reduction</td>
+<td>Regulatory restrictions</td>
+<td>Energy Reduction: 20%, Prediction Accuracy: 85%</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Figure1.png" class="zoomable img-fluid figure-img"></p>
+<figcaption>Figure 1: Case study performance comparison chart</figcaption>
+</figure>
+</div>
+<section id="material-reuse-and-waste-reduction" class="level3">
+<h3 class="anchored" data-anchor-id="material-reuse-and-waste-reduction">3.1 Material Reuse and Waste Reduction</h3>
+<p>Material reuse is a key indicator of CE performance. In the analyzed projects, reuse rates varied from 40% to 80%. Early-phase BIM audits facilitated the precise identification and documentation of salvageable components, particularly in heritage buildings where preserving culturally significant materials is critical <span class="citation" data-cites="Leising2018 vandenBerg2019"><a href="#ref-Leising2018" role="doc-biblioref">[6]</a>, <a href="#ref-vandenBerg2019" role="doc-biblioref">[13]</a></span>. Additionally, strategic deconstruction enabled targeted salvage operations, leading to waste reduction levels ranging between 20% and 45% compared to conventional demolition techniques <span class="citation" data-cites="Won2017"><a href="#ref-Won2017" role="doc-biblioref">[9]</a></span>. These findings indicate that a detailed digital assessment can substantially improve the recovery of materials, thereby reducing the overall waste generated during retrofit projects.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Figure2.png" class="zoomable img-fluid figure-img"></p>
+<figcaption>Figure 2: Impact metrics overview chart</figcaption>
+</figure>
+</div>
+</section>
+<section id="energy-savings" class="level3">
+<h3 class="anchored" data-anchor-id="energy-savings">3.2 Energy Savings</h3>
+<p>Energy savings represent one of the most significant benefits of retrofitting. Documented improvements ranged from 15% to 70%. In projects such as The Edge in Amsterdam, real-time IoT monitoring combined with AI-based optimization algorithms enabled continuous adjustment of building systems (e.g., HVAC, lighting) in response to occupancy patterns and environmental conditions <span class="citation" data-cites="Volk2014 Mohammadi2021"><a href="#ref-Volk2014" role="doc-biblioref">[8]</a>, <a href="#ref-Mohammadi2021" role="doc-biblioref">[10]</a></span>. This dynamic adjustment resulted in substantial energy savings and improved indoor environmental quality.</p>
+</section>
+<section id="stakeholder-engagement" class="level3">
+<h3 class="anchored" data-anchor-id="stakeholder-engagement">3.3 Stakeholder Engagement</h3>
+<p>Effective stakeholder engagement is critical for the success of retrofit projects. In this study, projects that utilized Virtual Reality (VR) and digital twin simulations reported enhanced communication among building owners, occupants, and regulatory authorities <span class="citation" data-cites="Whyte2018 Smith2019"><a href="#ref-Whyte2018" role="doc-biblioref">[16]</a>, <a href="#ref-Smith2019" role="doc-biblioref">[17]</a></span>. These tools provided stakeholders with a clear visualization of proposed interventions, enabling more informed decision-making and expediting regulatory approvals.</p>
+</section>
+<section id="data-integration-challenges" class="level3">
+<h3 class="anchored" data-anchor-id="data-integration-challenges">3.4 Data Integration Challenges</h3>
+<p>A recurring challenge observed across the projects was the fragmentation of data across multiple digital platforms. While some projects successfully implemented Common Data Environments (CDEs) to integrate data from BIM, IoT, and AI systems <span class="citation" data-cites="Eastman2018 Succar2015"><a href="#ref-Eastman2018" role="doc-biblioref">[18]</a>, <a href="#ref-Succar2015" role="doc-biblioref">[19]</a></span>, others—especially those executed by smaller firms—encountered significant interoperability issues <span class="citation" data-cites="Hosseini2021"><a href="#ref-Hosseini2021" role="doc-biblioref">[20]</a></span>. These challenges underscore the need for standardized data protocols, such as those provided by the Industry Foundation Classes (IFC), to facilitate seamless data exchange and improve overall project performance <span class="citation" data-cites="Geissdoerfer2017"><a href="#ref-Geissdoerfer2017" role="doc-biblioref">[21]</a></span>.</p>
+</section>
+</section>
+<section id="discussion" class="level2">
+<h2 class="anchored" data-anchor-id="discussion">4. Discussion</h2>
+<section id="validation-of-the-digital-framework" class="level3">
+<h3 class="anchored" data-anchor-id="validation-of-the-digital-framework">4.1 Validation of the Digital Framework</h3>
+<p>The proposed digital integration framework is organized into four distinct phases: Assessment, Planning, Execution, and Monitoring &amp; Optimization. The multi-case analysis provides empirical evidence supporting the effectiveness of each phase:</p>
+<ul>
+<li><p><strong>Assessment Phase</strong>:<br>
+Projects such as The Edge and Historic Reuse employed detailed scan-to-BIM processes and digital twin development to comprehensively evaluate existing building conditions. This phase was critical for identifying salvageable materials, potential hazards, and areas requiring special attention, thus reducing unforeseen complications during execution <span class="citation" data-cites="Volk2014 ONeill2020"><a href="#ref-Volk2014" role="doc-biblioref">[8]</a>, <a href="#ref-ONeill2020" role="doc-biblioref">[22]</a></span>.</p></li>
+<li><p><strong>Planning Phase</strong>:<br>
+In the Planning phase, the integration of AI-driven scenario analysis and VR-based stakeholder consultations allowed project teams to simulate various retrofit strategies. For example, the Large Commercial Complex project used these tools to optimize retrofit strategies that maximized energy savings and material reuse while ensuring compliance with regulatory requirements <span class="citation" data-cites="Akbarieh2020 Whyte2018"><a href="#ref-Akbarieh2020" role="doc-biblioref">[14]</a>, <a href="#ref-Whyte2018" role="doc-biblioref">[16]</a></span>.</p></li>
+<li><p><strong>Execution Phase</strong>:<br>
+During the Execution phase, real-time IoT monitoring was critical in allowing adaptive management. On-the-fly adjustments to demolition sequences and retrofit activities minimized material wastage and ensured that salvageable components were efficiently recovered. This proactive approach helped to reduce delays and cost overruns, as evidenced by the performance improvements documented in several projects <span class="citation" data-cites="Ding2019"><a href="#ref-Ding2019" role="doc-biblioref">[23]</a></span>.</p></li>
+<li><p><strong>Monitoring &amp; Optimization Phase</strong>:<br>
+Finally, continuous data collection through IoT sensors and AI analytics in the Monitoring &amp; Optimization phase enabled sustained performance improvements. Digital twins continued to play an important role by simulating future scenarios and enabling proactive maintenance decisions, thereby ensuring that energy efficiency and material conservation gains were maintained over the building’s lifecycle <span class="citation" data-cites="Lu2020"><a href="#ref-Lu2020" role="doc-biblioref">[24]</a></span>.</p></li>
+</ul>
+</section>
+<section id="barriers-and-enablers" class="level3">
+<h3 class="anchored" data-anchor-id="barriers-and-enablers">4.2 Barriers and Enablers</h3>
+<p>The study identifies several barriers to the successful implementation of digital-driven CE retrofits, including:</p>
+<ul>
+<li><strong>High Upfront Costs</strong>: Investments in BIM software, IoT sensors, and AI platforms are substantial, particularly for small organizations <span class="citation" data-cites="Kirchherr2017"><a href="#ref-Kirchherr2017" role="doc-biblioref">[4]</a></span>.<br>
+</li>
+<li><strong>Regulatory Uncertainties</strong>: Outdated or inconsistent regulatory frameworks can delay project approvals and increase project costs <span class="citation" data-cites="Pomponi2017"><a href="#ref-Pomponi2017" role="doc-biblioref">[7]</a></span>.<br>
+</li>
+<li><strong>Data Interoperability Issues</strong>: The lack of standardized data protocols often leads to fragmented information systems, impeding effective performance monitoring <span class="citation" data-cites="Hosseini2021"><a href="#ref-Hosseini2021" role="doc-biblioref">[20]</a></span>.<br>
+</li>
+<li><strong>Skill Shortages</strong>: A shortage of professionals trained in advanced digital techniques limits the full exploitation of these technologies.</li>
+</ul>
+<p>Conversely, key enablers that support digital-driven CE retrofits include:</p>
+<ul>
+<li><strong>Phased Implementation</strong>: Gradual investment in digital tools can help spread costs over time and reduce the initial financial burden <span class="citation" data-cites="ONeill2020"><a href="#ref-ONeill2020" role="doc-biblioref">[22]</a></span>.<br>
+</li>
+<li><strong>Open Data Standards</strong>: The adoption of open protocols, such as IFC standards, facilitates interoperability among digital systems and enhances data integration <span class="citation" data-cites="Eastman2018"><a href="#ref-Eastman2018" role="doc-biblioref">[18]</a></span>.<br>
+</li>
+<li><strong>Comprehensive Training Programs</strong>: Investing in cross-disciplinary training improves the skill base and enables more effective implementation of advanced digital technologies <span class="citation" data-cites="Hosseini2021"><a href="#ref-Hosseini2021" role="doc-biblioref">[20]</a></span>.</li>
+</ul>
+</section>
+<section id="implications-for-practice-and-policy" class="level3">
+<h3 class="anchored" data-anchor-id="implications-for-practice-and-policy">4.3 Implications for Practice and Policy</h3>
+<p>The findings of this study have important implications for both industry practice and policy development. For practitioners, the validated framework offers a structured roadmap for planning and executing CE retrofits. For policymakers, the study underscores the need for supportive measures to lower the barriers to adopting advanced digital technologies—such as tax incentives, green loans, and standardized data mandates.</p>
+</section>
+<section id="future-research-directions" class="level3">
+<h3 class="anchored" data-anchor-id="future-research-directions">4.4 Future Research Directions</h3>
+<p>Future studies should:</p>
+<ul>
+<li>Conduct long-term post-occupancy evaluations<br>
+</li>
+<li>Develop standardized data protocols for interoperability<br>
+</li>
+<li>Explore scalability in urban or regional retrofit programs<br>
+</li>
+<li>Investigate emerging technologies such as blockchain or advanced AI<br>
+</li>
+<li>Compare digital-driven retrofits to traditional retrofit approaches</li>
+</ul>
+</section>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">5. Conclusion</h2>
+<p>This study validates a comprehensive digital framework for Circular Economy retrofits through a multi-case analysis of eight diverse projects. The integration of BIM, IoT, AI, and Digital Twins facilitates significant material reuse (ranging from 40% to 80%) and energy savings (15% to 70%), while addressing persistent challenges such as stakeholder resistance, data fragmentation, and regulatory uncertainties. The four-phase framework—comprising Assessment, Planning, Execution, and Monitoring &amp; Optimization—provides a structured approach that enables superior retrofit outcomes.</p>
+<p>The empirical evidence presented extends existing literature by demonstrating that digital-driven CE retrofits are both environmentally and economically viable. Future research should focus on refining data integration and exploring the scalability of the framework to fully harness the potential of digital technologies in transforming the built environment.</p>
+<p>In conclusion, the transition to digital-driven CE retrofits represents a critical step toward a more sustainable built environment.</p>
+
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-IEA2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div class="csl-right-inline">International Energy Agency, <span>“Global status report for buildings and construction.”</span> 2019.</div>
+</div>
+<div id="ref-UNEP2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] </div><div class="csl-right-inline">United Nations Environment Programme, <span>“Global status report for buildings and construction.”</span> 2019.</div>
+</div>
+<div id="ref-EllenMacArthur2013" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] </div><div class="csl-right-inline">Ellen MacArthur Foundation, <span>“Towards the circular economy vol. 1: An economic and business rationale for an accelerated transition.”</span> 2013.</div>
+</div>
+<div id="ref-Kirchherr2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] </div><div class="csl-right-inline">J. Kirchherr, D. Reike, and M. Hekkert, <span>“Conceptualizing the circular economy: An analysis of 114 definitions,”</span> <em>Resources, Conservation and Recycling</em>, vol. 127, pp. 221–232, 2017.</div>
+</div>
+<div id="ref-Ghisellini2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] </div><div class="csl-right-inline">A. Ghisellini, C. Cialani, and S. Ulgiati, <span>“A review on circular economy: The expected transition to a balanced interplay of environmental and economic systems,”</span> <em>Journal of Cleaner Production</em>, vol. 114, pp. 11–32, 2016.</div>
+</div>
+<div id="ref-Leising2018" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[6] </div><div class="csl-right-inline">E. Leising, J. Quist, and N. Bocken, <span>“Circular economy in the building sector: Three cases and a collaboration tool,”</span> <em>Journal of Cleaner Production</em>, vol. 176, pp. 976–989, 2018.</div>
+</div>
+<div id="ref-Pomponi2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[7] </div><div class="csl-right-inline">F. Pomponi and A. Moncaster, <span>“Circular economy for the built environment: A research framework,”</span> <em>Journal of Cleaner Production</em>, vol. 143, pp. 710–718, 2017.</div>
+</div>
+<div id="ref-Volk2014" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[8] </div><div class="csl-right-inline">R. Volk, J. Stengel, and F. Schultmann, <span>“Building information modeling (BIM) for existing buildings—literature review and future needs,”</span> <em>Automation in Construction</em>, vol. 38, pp. 109–127, 2014.</div>
+</div>
+<div id="ref-Won2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[9] </div><div class="csl-right-inline">J. Won and J. C. Cheng, <span>“Identifying potential opportunities of building information modeling for construction and demolition waste management,”</span> <em>Automation in Construction</em>, vol. 79, pp. 3–18, 2017.</div>
+</div>
+<div id="ref-Mohammadi2021" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[10] </div><div class="csl-right-inline">N. Mohammadi and J. E. Taylor, <span>“Smart city digital twins,”</span> <em>IEEE Communications Magazine</em>, vol. 59, no. 8, pp. 74–79, 2021.</div>
+</div>
+<div id="ref-Yin2018" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[11] </div><div class="csl-right-inline">R. K. Yin, <em>Case study research and applications: Design and methods</em>, 6th ed. SAGE Publications, 2018.</div>
+</div>
+<div id="ref-Stake1995" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[12] </div><div class="csl-right-inline">R. E. Stake, <em>The art of case study research</em>. SAGE Publications, 1995.</div>
+</div>
+<div id="ref-vandenBerg2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[13] </div><div class="csl-right-inline">M. van den Berg, H. Voordijk, and A. Adriaanse, <span>“Reconciling heritage conservation and energy renovation: A study of decision-making in the netherlands,”</span> <em>Energy Research &amp; Social Science</em>, vol. 52, pp. 47–56, 2019.</div>
+</div>
+<div id="ref-Akbarieh2020" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[14] </div><div class="csl-right-inline">A. H. Akbarieh <em>et al.</em>, <span>“Digital engineering of building information modelling for off-site manufacturing,”</span> <em>Automation in Construction</em>, vol. 112, p. 103044, 2020.</div>
+</div>
+<div id="ref-Miller2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[15] </div><div class="csl-right-inline">K. Miller, C. Baumeister, and S. Reinecke, <span>“Open innovation in construction projects through stakeholder integration,”</span> <em>International Journal of Innovation Management</em>, vol. 23, no. 7, p. 1940015, 2019.</div>
+</div>
+<div id="ref-Whyte2018" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[16] </div><div class="csl-right-inline">J. Whyte and D. Nikolic, <em>Virtual reality and the built environment</em>. Routledge, 2018.</div>
+</div>
+<div id="ref-Smith2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[17] </div><div class="csl-right-inline">J. Smith <em>et al.</em>, <span>“Stakeholder integration in construction: Enhancing communication through digital tools,”</span> <em>Journal of Construction Management</em>, vol. 34, no. 2, pp. 150–160, 2019.</div>
+</div>
+<div id="ref-Eastman2018" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[18] </div><div class="csl-right-inline">C. Eastman, P. Teicholz, R. Sacks, and K. Liston, <em>BIM handbook: A guide to building information modeling for owners, designers, engineers, contractors, and facility managers</em>, 3rd ed. Wiley, 2018.</div>
+</div>
+<div id="ref-Succar2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[19] </div><div class="csl-right-inline">B. Succar and M. Kassem, <span>“BIM framework: A practical guide to BIM implementation,”</span> <em>Construction Innovation</em>, vol. 15, no. 1, pp. 94–115, 2015.</div>
+</div>
+<div id="ref-Hosseini2021" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[20] </div><div class="csl-right-inline">M. R. Hosseini <em>et al.</em>, <span>“BIM adoption within australian small and medium-sized enterprises (SMEs): An innovation diffusion model,”</span> <em>Construction Economics and Building</em>, vol. 21, no. 1, pp. 18–36, 2021.</div>
+</div>
+<div id="ref-Geissdoerfer2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[21] </div><div class="csl-right-inline">M. Geissdoerfer, P. Savaget, N. M. P. Bocken, and E. J. Hultink, <span>“The circular economy – a new sustainability paradigm?”</span> <em>Journal of Cleaner Production</em>, vol. 143, pp. 757–768, 2017.</div>
+</div>
+<div id="ref-ONeill2020" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[22] </div><div class="csl-right-inline">J. O’Neill and D. Gibbs, <span>“The edge: Exploring the <span>‘world’s most sustainable building.’</span>”</span> <em>Building Research &amp; Information</em>, vol. 48, no. 1, pp. 1–14, 2020.</div>
+</div>
+<div id="ref-Ding2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[23] </div><div class="csl-right-inline">T. Ding <em>et al.</em>, <span>“Smart buildings and construction 4.0: A systematic review,”</span> <em>Automation in Construction</em>, vol. 105, pp. 102–119, 2019.</div>
+</div>
+<div id="ref-Lu2020" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[24] </div><div class="csl-right-inline">Q. Lu, A. K. Parlikad, and J. M. Schooling, <span>“Digital twin-enabled anomaly detection for built asset monitoring in operation and maintenance,”</span> <em>Automation in Construction</em>, vol. 118, p. 103277, 2020.</div>
+</div>
+</div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-panahirad2025" class="csl-entry quarto-appendix-citeas" role="listitem">
+<div class="">F.
+Panahirad, <span>“Validating a Digital Circular Economy Framework
+through Multi-Case Retrofit Analysis,”</span> in <em>4th International
+congress on civil Engineering, Architecture, Building Materials and
+Environment, Helsinki, Finland.</em>, Mar. 2025.</div>
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = true;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<script src="../../../assets/js/darklight-image-switcher.js"></script>
+<script src="../../../assets/js/toggle-sections.js"></script>
+
+
+
+
+</body></html>
