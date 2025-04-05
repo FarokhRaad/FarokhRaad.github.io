@@ -171,8 +171,8 @@ Contributed to design projects and client consultations
 
 ::: {.entry-inline}
 ::: {.entry-header}
-<div class="entry-title">**Senior Architect Assistant**</div>
-<div class="entry-badge">2015–2018</div>
+<div class="entry-title">**Intern Architect**</div>
+<div class="entry-badge">2013–2015</div>
 *Tarh Design & Consultation Office* 
 <div class="entry-location">{{<fa location-dot>}} Kermanshah, Iran</div>
 :::

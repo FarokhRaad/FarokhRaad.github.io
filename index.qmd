@@ -11,6 +11,8 @@ about:
       href: "https://orcid.org/0009-0008-5691-2240"
     - text: '{{< fa brands google-scholar size=3x title="Google Scholar" >}}'
       href: "https://scholar.google.com/citations?user=oZbQQPQAAAAJ"
+    - text: '{{< fa brands linkedin size=3x title="Linkedin" >}}'
+      href: "https://www.linkedin.com/in/farokh-panahirad"
     - text: '![](/assets/image/civilica.dark.png){width=3em title="Civilica"}'
       href: "https://en.civilica.com/p/68100/"
 ---
