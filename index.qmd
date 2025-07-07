@@ -1,7 +1,7 @@
 ---
 title: "Farokh Panahirad"
 subtitle: |
-  Ph.D. student focused on exploring the intersection of **artificial intelligence** and **creativity** within **architectural design processes**. Engaged in interdisciplinary research that integrates computational methodologies with human-centered approaches to tackle complex challenges in urban planning and environmental design. Committed to producing innovative and impactful research within dynamic academic settings.
+  PhD candidate exploring the intersection of artificial intelligence and creativity in architectural design processes. Engaged in interdisciplinary research that integrates computational methodologies with human-centered approaches to address complex challenges in urban planning and environmental design. Committed to producing innovative, impactful research in dynamic academic settings.
 about:
   template: jolla
   links:
